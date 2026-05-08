@@ -23,4 +23,15 @@ export const footer = [
 
     ],
   },
+{
+  title: "FOLLOW US",
+  text: [
+    { list: "Facebook", link: "https://facebook.com/livamsolutions" },
+    { list: "Instagram", link: "https://instagram.com/livamsolutions" },
+    { list: "Twitter/X", link: "https://twitter.com/livamsolutions" },
+    { list: "LinkedIn", link: "https://linkedin.com/company/livamsolutions" },
+    { list: "TikTok", link: "https://tiktok.com/@livamsolutions" },
+    { list: "YouTube", link: "https://youtube.com/@livamsolutions" },
+  ],
+},
 ];
