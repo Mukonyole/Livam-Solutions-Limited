@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import introImage from "../images/cover2.jpg";
-import { FaFacebook, FaTiktok, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaYoutube, FaTiktok, FaTwitter } from "react-icons/fa";
 
 const Contact = () => {
   useEffect(() => {
@@ -47,7 +47,22 @@ const Contact = () => {
     >
       <FaFacebook size={25} />
     </a>
-
+  <a
+       href="https://instagram.com"
+       target="_blank"
+       rel="noopener noreferrer"
+       className="me-3 text-primary social-icon"
+        >
+        <FaInstagram />
+          </a>
+               <a
+  href="https://youtube.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="me-3 text-danger social-icon"
+>
+  <FaYoutube />
+</a>
     <a
       href="https://www.tiktok.com/@yourusername"
       target="_blank"
@@ -56,7 +71,14 @@ const Contact = () => {
     >
       <FaTiktok size={25} />
     </a>
-
+  <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="me-3 text-dark social-icon"
+              >
+                <FaLinkedinIn />
+              </a>
     <a
       href="https://twitter.com/yourusername"
       target="_blank"

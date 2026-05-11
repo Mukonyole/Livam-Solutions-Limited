@@ -5,7 +5,7 @@ import Stats from "./Stats";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
-import TrackProgress from "./TrackProgress";
+import Gallery from "./Gallery";
 import Blog from "./Blog";
 import {
   BrowserRouter as Router,
@@ -51,8 +51,8 @@ const Home = () => {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/track-progress" element={<TrackProgress />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/gallery" element={<Gallery />} />
         <Route path="/v-admin" element={<Dashboard />} />
       </Routes>
       {!hideHeaderFooter && <Footer />}

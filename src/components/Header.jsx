@@ -36,8 +36,9 @@ const Header = () => {
           <li>
             <a href="contact">Contact</a>
           </li>
+        
           <li>
-            <a href="track-progress">Track Progress</a>
+            <a href="gallery">Our Gallery</a>
           </li>
            <li>
             <a href="blog">Blog</a>

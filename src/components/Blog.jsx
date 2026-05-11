@@ -44,7 +44,66 @@ const Blog = () => {
         We understand that every project is unique, and we work closely with our clients to deliver solutions that meet their specific needs.
       </p>
 
+<section className="py-5 bg-light" data-aos="fade-up">
+  <div className="container">
+    <h2 className="text-center fw-bold mb-5" style={{ color: "#01327b" }}>
+      Our Blog
+    </h2>
+
+    <div className="row g-4">
+      {[
+        {
+          title: "Borehole drilling requirements in Kenya",
+          content: `
+Before drilling a borehole in Kenya, several legal and technical requirements must be met. These include obtaining permits from Water Resources Authority (WRA), conducting a hydrogeological survey, and ensuring environmental compliance.
+
+The survey helps determine water availability, depth, and drilling feasibility. Without it, drilling may fail or produce low water yield.
+
+Proper documentation ensures your project is approved and avoids legal penalties.
+          `,
+        },
+        {
+          title: "What to look for when drilling a borehole",
+          content: `
+When drilling a borehole, it is important to consider the location, soil type, water table depth, and the experience of the drilling company.
+
+A professional company will conduct site surveys, use modern drilling machines, and ensure proper casing and gravel packing.
+
+Quality materials and correct installation determine the lifespan of your borehole system.
+          `,
+        },
+        {
+          title: "No shortcuts in borehole drilling",
+          content: `
+Borehole drilling is a technical process that requires precision. Cutting corners often leads to collapsed boreholes, low water yield, or contamination.
+
+Proper drilling procedures include site analysis, correct drilling depth, proper casing, and pump testing.
+
+At Livam Solutions Ltd, we ensure every project follows industry standards for long-term reliability.
+          `,
+        },
+      ].map((blog, index) => (
+        <div className="col-md-4" key={index}>
+          <div className="card shadow-sm border-0 h-100 p-3">
+            <h5 className="fw-bold mb-3" style={{ color: "#01327b" }}>
+              {blog.title}
+            </h5>
+
+            <p className="text-muted" style={{ whiteSpace: "pre-line" }}>
+              {blog.content.substring(0, 200)}...
+            </p>
+
+            <button className="btn btn-primary btn-sm mt-2">
+              Read More
+            </button>
+          </div>
+        </div>
+      ))}
     </div>
+  </div>
+</section>
+    </div>
+    
   );
 };
 

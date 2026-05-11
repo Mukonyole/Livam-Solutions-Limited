@@ -144,6 +144,85 @@ We promote environmentally responsible practices to ensure long-term water acces
         </div>
       </section>
 
+
+{/* Our Suppliers Section */}
+<section className="py-5 bg-white" data-aos="fade-up">
+  <div className="container">
+    <h2
+      className="text-center fw-bold mb-4"
+      style={{ color: "#01327b" }}
+    >
+      Our Suppliers & Partners
+    </h2>
+
+    <p
+      className="text-center text-muted mb-5"
+      style={{
+        maxWidth: "900px",
+        margin: "0 auto",
+        lineHeight: "1.8",
+        fontSize: "17px",
+      }}
+    >
+      At Livam Solutions Limited, we work closely with trusted suppliers
+      and industry partners to ensure we deliver high-quality,
+      reliable, and sustainable water solutions across Kenya.
+      Our partnerships enable us to access modern drilling equipment,
+      quality pipes, pumps, water systems, and engineering materials
+      required for successful project execution.
+    </p>
+
+    <div className="row g-4">
+      {[
+        {
+          name: "POA TANK",
+          service: "Water Storage Tanks & Water Management Solutions",
+        },
+        {
+          name: "Davis & Shirtliff",
+          service: "Submersible Water Pumps, HSPE pipes and Solars.",
+        },
+       
+        {
+          name: "Shangwe Hardware",
+          service: "Construction Materials, Plumbing Supplies & Borehole Installation Equipment and Timber products",
+        },
+      
+      ].map((supplier, index) => (
+        <div className="col-md-4" key={index}>
+          <div
+            className="card border-0 shadow-sm h-100 text-center p-4"
+            style={{
+              transition: "transform 0.3s ease",
+            }}
+            onMouseOver={(e) =>
+              (e.currentTarget.style.transform = "translateY(-8px)")
+            }
+            onMouseOut={(e) =>
+              (e.currentTarget.style.transform = "translateY(0)")
+            }
+          >
+            <div className="card-body">
+              <h4
+                className="fw-bold mb-3"
+                style={{ color: "#01327b" }}
+              >
+                {supplier.name}
+              </h4>
+
+              <p className="text-muted">
+                {supplier.service}
+              </p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+{/* Team Section */}
+
       {/* Team Section */}
       <section className="bg-light py-5" data-aos="fade-up">
         <div className="container">
@@ -154,7 +233,7 @@ We promote environmentally responsible practices to ensure long-term water acces
   name: "Justus Asakhulu",
   role: "CEO",
   description:"Provides strategic leadership and oversees all company operations, project management, and business development activities.",
-  img: "https://picsum.photos/266/300?random=2",
+  img: "https://picsum.photos/280/300?random=2",
 },
                {
                 name: "Boniface Masoni",

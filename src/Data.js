@@ -5,7 +5,7 @@ export const footer = [
       { list: "Home", link: "/" },
       { list: "About Us", link: "/about" },
       { list: "Contact", link: "/contact" },
-      { list: "Track Project", link: "/track" },
+      { list: "Our Gallery", link: "/gallery" },
       { list: "Blog", link: "#blog" },
     ],
   },

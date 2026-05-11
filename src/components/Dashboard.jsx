@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaHome, FaClipboardList } from "react-icons/fa";
-import AdminTrack from "./AdminTrack";
 import HomeAdmin from "./HomeAdmin";
 
 const Dashboard = () => {
@@ -11,7 +10,7 @@ const Dashboard = () => {
 
   const components = {
     Home: <HomeAdmin />,
-    Orders: <AdminTrack />,
+   
   };
 
   const navIcons = {
@@ -20,7 +19,7 @@ const Dashboard = () => {
   };
 
   const handleAuthentication = () => {
-    if (password === "Vibrant@25") {
+    if (password === "Livam@20") {
       setAuthenticated(true);
     } else {
       alert("Incorrect password. Please try again.");
