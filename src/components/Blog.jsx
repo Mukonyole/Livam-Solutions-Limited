@@ -1,109 +1,222 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Blog = () => {
+  const [expanded, setExpanded] = useState(null);
+
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
   }, []);
 
+  const blogs = [
+    {
+      title: "Borehole Drilling Requirements in Kenya",
+      content: `
+Before drilling a borehole in Kenya, several legal and technical requirements must be met. These include obtaining permits from the Water Resources Authority (WRA), carrying out hydrogeological surveys, and complying with environmental regulations.
+
+The survey helps determine water availability, expected drilling depth, and the success rate of the project.
+
+Proper approvals help avoid delays, legal penalties, and failed drilling projects.
+      `,
+    },
+
+    {
+      title: "What To Look For When Drilling A Borehole",
+      content: `
+Successful borehole drilling depends on proper planning and selecting an experienced drilling company.
+
+Important factors include:
+• Site location
+• Geological conditions
+• Water table depth
+• Quality drilling equipment
+• Proper casing and gravel packing
+
+Using quality materials greatly improves borehole lifespan and performance.
+      `,
+    },
+
+    {
+      title: "No Shortcuts In Borehole Drilling",
+      content: `
+Borehole drilling requires technical precision.
+
+Poor drilling methods often lead to:
+• Collapsed boreholes
+• Low water output
+• Water contamination
+• Pump failures
+
+At Livam Solutions Ltd, every project follows industry standards from site investigation to pump testing to ensure long-term reliability.
+      `,
+    },
+  ];
+
   return (
-    <div className="container mt-5">
+    <div className="container py-5">
 
-      <p data-aos="fade-up">
-        Livam Solutions Ltd has established itself as a trusted leader in water drilling and borehole solutions across Kenya. With over 5 years of experience in the industry, the company has successfully completed 257 projects, including the drilling of 172 boreholes, delivering reliable and sustainable water solutions to homes, farms, institutions, and businesses.
+      {/* Header */}
+      <div className="text-center mb-5" data-aos="fade-up">
+        <h1 className="fw-bold" style={{ color: "#01327b" }}>
+          Our Blog
+        </h1>
 
-        Based in Kakamega, Livam Solutions Ltd serves clients across the entire country, providing professional, efficient, and affordable water services tailored to meet diverse needs. These achievements reflect our commitment to quality, reliability, and customer satisfaction.
-      </p>
+        <p className="lead text-muted">
+          Reliable Water Solutions Across Kenya
+        </p>
+      </div>
 
-      <h4>🛠️ Comprehensive Water Solutions</h4>
-      <p>
-        Beyond drilling, Livam Solutions Ltd offers a wide range of services including:
-        <br />
-        Site survey and water consultancy<br />
-        Borehole drilling, casing, and gravel packing<br />
-        Pump installation and maintenance<br />
-        Water testing and treatment solutions<br />
-        Borehole rehabilitation and maintenance<br />
-        Water storage solutions<br />
-        <br />
-        Our goal is to provide end-to-end water solutions, ensuring our clients enjoy uninterrupted water supply.
-      </p>
+      {/* Company Intro */}
+      <div
+        className="card border-0 shadow p-4 mb-5"
+        data-aos="fade-up"
+      >
+        <p className="mb-0">
+          Livam Solutions Ltd has established itself as a trusted leader
+          in borehole drilling and water solutions across Kenya.
 
-      <h4>🤝 Why Choose Livam Solutions Ltd?</h4>
-      <p>
-        Clients across Kenya trust us because we offer:
-        <br />
-        Professional and experienced team<br />
-        Modern drilling equipment<br />
-        Affordable and transparent pricing<br />
-        Timely project completion<br />
-        Customized solutions for every client<br />
-        <br />
-        We understand that every project is unique, and we work closely with our clients to deliver solutions that meet their specific needs.
-      </p>
+          With over <strong>5 years of experience</strong>, the company
+          has successfully completed <strong>257 projects</strong> and
+          drilled <strong>172 boreholes</strong>, delivering reliable
+          water solutions to homes, farms, institutions, and businesses.
 
-<section className="py-5 bg-light" data-aos="fade-up">
-  <div className="container">
-    <h2 className="text-center fw-bold mb-5" style={{ color: "#01327b" }}>
-      Our Blog
-    </h2>
+          Based in <strong>Kakamega</strong>, we proudly serve clients
+          throughout Kenya while maintaining high standards of quality,
+          professionalism, and customer satisfaction.
+        </p>
+      </div>
 
-    <div className="row g-4">
-      {[
-        {
-          title: "Borehole drilling requirements in Kenya",
-          content: `
-Before drilling a borehole in Kenya, several legal and technical requirements must be met. These include obtaining permits from Water Resources Authority (WRA), conducting a hydrogeological survey, and ensuring environmental compliance.
+      {/* Statistics */}
+      <div className="row text-center mb-5">
 
-The survey helps determine water availability, depth, and drilling feasibility. Without it, drilling may fail or produce low water yield.
-
-Proper documentation ensures your project is approved and avoids legal penalties.
-          `,
-        },
-        {
-          title: "What to look for when drilling a borehole",
-          content: `
-When drilling a borehole, it is important to consider the location, soil type, water table depth, and the experience of the drilling company.
-
-A professional company will conduct site surveys, use modern drilling machines, and ensure proper casing and gravel packing.
-
-Quality materials and correct installation determine the lifespan of your borehole system.
-          `,
-        },
-        {
-          title: "No shortcuts in borehole drilling",
-          content: `
-Borehole drilling is a technical process that requires precision. Cutting corners often leads to collapsed boreholes, low water yield, or contamination.
-
-Proper drilling procedures include site analysis, correct drilling depth, proper casing, and pump testing.
-
-At Livam Solutions Ltd, we ensure every project follows industry standards for long-term reliability.
-          `,
-        },
-      ].map((blog, index) => (
-        <div className="col-md-4" key={index}>
-          <div className="card shadow-sm border-0 h-100 p-3">
-            <h5 className="fw-bold mb-3" style={{ color: "#01327b" }}>
-              {blog.title}
-            </h5>
-
-            <p className="text-muted" style={{ whiteSpace: "pre-line" }}>
-              {blog.content.substring(0, 200)}...
-            </p>
-
-            <button className="btn btn-primary btn-sm mt-2">
-              Read More
-            </button>
+        <div className="col-md-4 mb-3" data-aos="zoom-in">
+          <div className="card shadow border-0 p-4">
+            <h2 style={{ color: "#01327b" }}>5+</h2>
+            <p>Years Experience</p>
           </div>
         </div>
-      ))}
+
+        <div className="col-md-4 mb-3" data-aos="zoom-in">
+          <div className="card shadow border-0 p-4">
+            <h2 style={{ color: "#01327b" }}>172</h2>
+            <p>Boreholes Drilled</p>
+          </div>
+        </div>
+
+        <div className="col-md-4 mb-3" data-aos="zoom-in">
+          <div className="card shadow border-0 p-4">
+            <h2 style={{ color: "#01327b" }}>257</h2>
+            <p>Completed Projects</p>
+          </div>
+        </div>
+
+      </div>
+
+      {/* Services */}
+      <div
+        className="card shadow border-0 p-4 mb-5"
+        data-aos="fade-up"
+      >
+        <h3 className="mb-3">
+          🛠️ Comprehensive Water Solutions
+        </h3>
+
+        <ul>
+          <li>Site survey and water consultancy</li>
+          <li>Borehole drilling and casing</li>
+          <li>Gravel packing services</li>
+          <li>Pump installation and maintenance</li>
+          <li>Water testing and treatment</li>
+          <li>Borehole rehabilitation</li>
+          <li>Water storage solutions</li>
+        </ul>
+
+        <p>
+          We provide complete end-to-end water solutions for homes,
+          institutions, farms, and businesses.
+        </p>
+      </div>
+
+      {/* Blog Cards */}
+      <section className="py-4">
+
+        <div className="row g-4">
+
+          {blogs.map((blog, index) => (
+            <div
+              className="col-md-4"
+              key={index}
+              data-aos="fade-up"
+            >
+              <div className="card shadow border-0 h-100 p-4">
+
+                <h5
+                  className="fw-bold mb-3"
+                  style={{ color: "#01327b" }}
+                >
+                  {blog.title}
+                </h5>
+
+                <p
+                  className="text-muted"
+                  style={{ whiteSpace: "pre-line" }}
+                >
+                  {expanded === index
+                    ? blog.content
+                    : `${blog.content.substring(0, 180)}...`}
+                </p>
+
+                <button
+                  className="btn btn-primary mt-auto"
+                  onClick={() =>
+                    setExpanded(
+                      expanded === index
+                        ? null
+                        : index
+                    )
+                  }
+                >
+                  {expanded === index
+                    ? "Show Less"
+                    : "Read More"}
+                </button>
+
+              </div>
+            </div>
+          ))}
+
+        </div>
+
+      </section>
+
+      {/* Why Choose Us */}
+      <div
+        className="card shadow border-0 p-4 mt-5"
+        data-aos="fade-up"
+      >
+        <h3>🤝 Why Choose Livam Solutions Ltd?</h3>
+
+        <ul>
+          <li>Experienced and professional team</li>
+          <li>Modern drilling equipment</li>
+          <li>Affordable pricing</li>
+          <li>Timely project delivery</li>
+          <li>Customized water solutions</li>
+          <li>Nationwide service coverage</li>
+        </ul>
+
+        <p>
+          Every project receives dedicated planning and execution to
+          deliver sustainable and reliable water access.
+        </p>
+      </div>
+
     </div>
-  </div>
-</section>
-    </div>
-    
   );
 };
 

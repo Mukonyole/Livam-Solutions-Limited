@@ -41,21 +41,21 @@ const Chatbot = () => {
   return (
     <div>
       {/* Floating Chat Button */}
-      <button
-        onClick={() => setIsChatOpen(!isChatOpen)}
-        className="btn btn-primary rounded-circle"
-        style={{
-          position: "fixed",
-          bottom: "20px",
-          right: "20px",
-          zIndex: 1000,
-          width: "60px",
-          height: "60px",
-        }}
-      >
-        <BsChatDotsFill size={24} />
-      </button>
-
+     <button
+  onClick={() => setIsChatOpen(!isChatOpen)}
+  className="btn btn-primary d-flex align-items-center px-3 py-2 shadow"
+  style={{
+    position: "fixed",
+    bottom: "20px",
+    right: "20px",
+    zIndex: 1000,
+    borderRadius: "30px",
+    gap: "8px",
+  }}
+>
+  <BsChatDotsFill size={22} />
+  <span>Chat With Us</span>
+</button>
       {/* Chat Modal */}
       {isChatOpen && (
         <div

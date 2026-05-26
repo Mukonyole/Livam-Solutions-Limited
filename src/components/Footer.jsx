@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { footer } from "../Data";
 import "./footer.css";
 
+
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [email, setEmail] = useState("");

@@ -14,14 +14,17 @@ const About = () => {
     <div>
       {/* Introduction Section */}
       <section
-        className="d-flex align-items-center justify-content-center text-center text-white bg-dark"
-        style={{
-          height: "60vh",
-          backgroundImage: `url(${introImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+  className="d-flex align-items-center justify-content-center text-center text-white bg-dark"
+  data-aos="zoom-in"
+  data-aos-duration="1500"
+  data-aos-once="true"
+  style={{
+    height: "60vh",
+    backgroundImage: `url(${introImage})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+  }}
+>
         <div>
          <h1 className="display-4 fw-bold" style={{ color: "white" }}>
   Livam Solutions Limited

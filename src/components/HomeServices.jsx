@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import wellDrillingImage from "../images/truck.jpg";
-import boreholeMaintenanceImage from "../images/well.jpg";
 import waterConsultancyImage from "../images/truck3.jpg";
 import ConsultancyImage from "../images/truck2.jpg";
 

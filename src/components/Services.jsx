@@ -4,7 +4,6 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 // Import your local images
-import introImage from "../images/cover1.jpg";
 import wellDrillingImage from "../images/truck.jpg";
 import boreholeMaintenanceImage from "../images/well.jpg";
 import waterConsultancyImage from "../images/water.jpg";
@@ -108,6 +107,139 @@ const Services = () => {
           ))}
         </div>
       </section>
+
+      {/* Drilling Cost Section */}
+<section className="container py-5" data-aos="fade-up">
+  <h2
+    className="text-center mb-4"
+    style={{
+      color: "#01327b",
+      fontWeight: "bold",
+    }}
+  >
+    Estimated Borehole Drilling Costs
+  </h2>
+
+  <p className="text-center mb-5">
+    Borehole drilling costs vary depending on location,
+    drilling depth, geological conditions, water table level,
+    equipment requirements, and installation needs.
+    Below are estimated service costs.
+  </p>
+
+  <div className="row g-4">
+
+    {[
+      {
+        title: "Hydrogeological Site Survey",
+        price: "From KES 50,000",
+        desc:
+          "Professional survey to determine water availability and suitable drilling points.",
+      },
+
+      {
+        title: "Borehole Drilling",
+        price: "KES 6,000 - 7,500 per metre",
+        desc:
+          "Includes drilling operations, casing installation, gravel packing and development.",
+      },
+
+      {
+        title: "Pump Installation",
+        price: "From KES 50,000",
+        desc:
+          "Supply and installation of pumps based on depth and water demand.",
+      },
+
+      {
+        title: "Water Storage Solutions",
+        price: "From KES 100,000",
+        desc:
+          "Tank installation, towers and water distribution systems.",
+      },
+
+      {
+        title: "Water Testing",
+        price: "From KES 15,000",
+        desc:
+          "Laboratory analysis and quality assessment.",
+      },
+
+      {
+        title: "Borehole Maintenance",
+        price: "Custom Quotation",
+        desc:
+          "Cleaning, flushing, pump servicing and rehabilitation.",
+      },
+
+    ].map((cost, index) => (
+
+      <div className="col-md-4" key={index}>
+        <div
+          className="card shadow border-0 h-100 text-center"
+          style={{
+            borderRadius: "12px",
+            overflow: "hidden",
+          }}
+        >
+
+          <div
+            style={{
+              backgroundColor: "#01327b",
+              color: "white",
+              padding: "20px",
+            }}
+          >
+            <h5 className="fw-bold">
+              {cost.title}
+            </h5>
+
+            <h3 className="mt-3">
+              {cost.price}
+            </h3>
+          </div>
+
+          <div className="card-body d-flex flex-column">
+
+  <p className="text-muted flex-grow-1">
+    {cost.desc}
+  </p>
+
+  <button
+    className="btn mt-3"
+    style={{
+      backgroundColor: "#01327b",
+      color: "white",
+      borderRadius: "8px",
+    }}
+    onClick={() => window.location.href="/contact"}
+  >
+    Request Quotation
+  </button>
+
+</div>
+
+        </div>
+      </div>
+
+    ))}
+
+  </div>
+
+  <div className="text-center mt-5">
+    <p
+      style={{
+        fontSize: "15px",
+        color: "#666",
+      }}
+    >
+      * Costs are estimates only and may vary depending on project location,
+      depth, geology, transport, casing requirements, pump selection,
+      and site conditions.
+    </p>
+  </div>
+
+</section>
     </div>
   );
 };

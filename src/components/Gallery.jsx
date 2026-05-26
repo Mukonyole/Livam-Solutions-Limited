@@ -10,9 +10,13 @@ import gallery4 from "../images/gallery4.jpg";
 import gallery5 from "../images/gallery5.jpg";
 import gallery6 from "../images/gallery6.jpg";
 import gallery7 from "../images/gallery7.jpg";
+import gallery8 from "../images/gallery8.jpg";
+import gallery9 from "../images/gallery9.jpg";
 
 import video1 from "../videos/video1.mp4";
 import video2 from "../videos/video2.mp4";
+import video3 from "../videos/video3.mp4";
+import video4 from "../videos/video4.mp4";
 
 const Gallery = () => {
   useEffect(() => {
@@ -22,7 +26,11 @@ const Gallery = () => {
   return (
     <>
       {/* Image Gallery Section */}
-      <section className="py-5 bg-light">
+      <section
+  className="py-5 bg-light"
+  data-aos="fade-up"
+  data-aos-duration="1200"
+>
         <div className="container">
           <h1
             className="text-center fw-bold mb-4"
@@ -45,6 +53,8 @@ const Gallery = () => {
               gallery5,
               gallery6,
               gallery7,
+              gallery8,
+              gallery9,
             ].map((image, index) => (
               <div className="col-md-4" key={index}>
                 <div className="card border-0 shadow-sm overflow-hidden">
@@ -82,7 +92,7 @@ const Gallery = () => {
           </h2>
 
           <div className="row g-4">
-            {[video1, video2].map((video, index) => (
+            {[video1, video2, video3, video4].map((video, index) => (
               <div className="col-md-6" key={index}>
                 <div className="card border-0 shadow-sm overflow-hidden">
                   <video
