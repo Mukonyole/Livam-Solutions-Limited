@@ -93,66 +93,64 @@ const Footer = () => {
         </div>
       </section>
 
-      <footer>
-        <div className="container">
+      <footer className="footer">
+  <div className="container">
+    <div className="row gy-4">
 
-          {/* NEWSLETTER BOX */}
-          <div className="box">
-            <div className="logo">
-              <img src="../images/logo-light.png" alt="" />
-              <h2>Do You Need Help With Anything?</h2>
-              <p>
-                Receive exclusive updates, special offers and discounts delivered directly to your inbox every month.
-              </p>
+      {/* Newsletter */}
+      <div className="col-12 col-md-6 col-lg-3">
+        <div className="box">
+          <h3>Need Help With Anything?</h3>
 
-              {/* ✅ WORKING FORM */}
-              <form onSubmit={handleSubmit}>
-                <div className="input flex">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email Address"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    required
-                  />
-                  <button type="submit" className="btn6">
-                    Subscribe
-                  </button>
-                </div>
+          <p>
+            Receive updates, offers and discounts in your inbox.
+          </p>
 
-                {/* SUCCESS / ERROR MESSAGE */}
-                {status === "SUCCESS" && (
-                  <p style={{ color: "green", marginTop: "10px" }}>
-                    Subscribed successfully!
-                  </p>
-                )}
+          <form onSubmit={handleSubmit}>
+            <input
+              type="email"
+              placeholder="Email Address"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              className="form-control mb-2"
+              required
+            />
 
-                {status === "ERROR" && (
-                  <p style={{ color: "red", marginTop: "10px" }}>
-                    Something went wrong. Try again.
-                  </p>
-                )}
-              </form>
-            </div>
-          </div>
+            <button className="btn btn-primary w-100">
+              Subscribe
+            </button>
+          </form>
 
-          {/* FOOTER LINKS */}
-          {footer.map((val, index) => (
-            <div className="box" key={index}>
-              <h3>{val.title}</h3>
-              <ul>
-                {val.text.map((items, i) => (
-                  <li key={i}>
-                    <a href={items.link}>{items.list}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          {status === "SUCCESS" && (
+            <p style={{ color: "green" }}>Subscribed!</p>
+          )}
 
+          {status === "ERROR" && (
+            <p style={{ color: "red" }}>Try again</p>
+          )}
         </div>
-      </footer>
+      </div>
+
+      {/* Links */}
+      {footer.map((val, index) => (
+        <div className="col-12 col-md-6 col-lg-3" key={index}>
+          <div className="box">
+            <h3>{val.title}</h3>
+
+            <ul>
+              {val.text.map((item, i) => (
+                <li key={i}>
+                  <a href={item.link}>{item.list}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      ))}
+
+    </div>
+  </div>
+</footer>
 
       <div className="legal">
         <span>© {currentYear}. Livam Solutions Ltd.</span>
