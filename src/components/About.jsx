@@ -53,6 +53,7 @@ const About = () => {
 <p style={{ textAlign: "left", fontSize: "17px", lineHeight: "1.7", color: "#696868" }}>
   Livam Solutions Ltd is a professional water drilling company based in Kakamega, Kenya. We are committed to delivering reliable, sustainable, and affordable water solutions for homes, farms, institutions, commercial properties and industries across Kenya. With over 5 years of experience in the water drilling industry, Livam Solutions Limited has built a strong reputation for professionalism, quality service delivery, and customer satisfaction. Our experienced team uses modern equipment and industry best practices to ensure successful and efficient project execution. We specialize in borehole drilling, hydrogeological site surveys, pump installation, water testing, borehole maintenance, and other water-related engineering solutions. We take pride in contributing to improved livelihoods by providing dependable water solutions across Kenya.
 </p>
+
         </h2>
         <div className="row">
           <div className="col-12 position-relative">
