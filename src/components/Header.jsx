@@ -10,6 +10,10 @@ const Header = () => {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <div className="containerB">
       <nav className="navbar">
@@ -28,27 +32,27 @@ const Header = () => {
 
         <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={closeMenu}>Home</Link>
           </li>
 
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" onClick={closeMenu}>About</Link>
           </li>
 
           <li>
-            <Link to="/services">Services</Link>
+            <Link to="/services" onClick={closeMenu}>Services</Link>
           </li>
 
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" onClick={closeMenu}>Contact</Link>
           </li>
 
           <li>
-            <Link to="/gallery">Our Gallery</Link>
+            <Link to="/gallery" onClick={closeMenu}>Our Gallery</Link>
           </li>
 
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/blog" onClick={closeMenu}>Blog</Link>
           </li>
         </ul>
       </nav>
