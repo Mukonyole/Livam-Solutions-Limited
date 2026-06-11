@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const Blog = () => {
-  const [expanded, setExpanded] = useState(null);
+  const [expanded] = useState(null);
 
   useEffect(() => {
     AOS.init({
@@ -15,153 +16,26 @@ const Blog = () => {
 
   const blogs = [
     {
+      slug: "Borehole Drilling Requirements in Kenya", 
       title: "Borehole Drilling Requirements in Kenya",
       content: `
-      Borehole drilling in Kenya is one of the most effective solutions for addressing water scarcity in homes, farms, institutions, and businesses. However, before drilling a borehole, there are important legal, technical, and environmental requirements that must be followed. These requirements ensure that groundwater resources are used sustainably and that the borehole is safe, productive, and compliant with Kenyan regulations.
-At Livam Solutions Ltd, we guide our clients through the entire borehole drilling process, from permits and surveys to drilling and installation, ensuring full compliance and long-term water reliability.
-________________________________________
-1. Hydrogeological Survey Requirement
-One of the first and most important steps in borehole drilling is conducting a hydrogeological survey. This study is carried out by licensed geologists who assess the underground water potential of a specific location.
-Why it is important:
-•	Determines if water is available underground 
-•	Estimates the depth of the borehole 
-•	Identifies the best drilling location 
-•	Reduces risk of drilling failure 
-The survey provides a detailed report that is later submitted to the Water Resources Authority (WRA) when applying for a drilling permit.
-________________________________________
-2. Water Resources Authority (WRA) Permit
-In Kenya, it is a legal requirement to obtain a permit from the Water Resources Authority before drilling a borehole. This ensures that groundwater extraction is regulated and sustainable. Once approved, the WRA issues a permit allowing drilling to proceed. Failure to obtain this permit can result in fines or demolition of the borehole.
-________________________________________
-3. Environmental Impact Considerations
-Depending on the location and depth of the borehole, an Environmental Impact Assessment (EIA) may be required. This assessment ensures that drilling does not negatively affect the surrounding environment. NEMA (National Environment Management Authority) is responsible for approving environmental compliance in Kenya.
-________________________________________
-4. Land Ownership and Consent
-Before drilling a borehole, the applicant must prove ownership of the land or provide written consent from the landowner. This is a key legal requirement to avoid disputes.
-Required documents:
-•	Title deed or lease agreement 
-•	Written permission from landowner (if not owner) 
-•	Identification documents 
-This ensures that borehole installation is legally authorized on the property.
-________________________________________
-5. Drilling Contractor Requirements
-Only licensed and experienced drilling companies should carry out borehole drilling in Kenya. Using qualified contractors ensures quality work and compliance with industry standards.
-A professional drilling company should provide:
-•	Licensed drilling equipment 
-•	Experienced engineers and technicians 
-•	Proper casing and gravel packing materials 
-•	Pump installation services 
-•	Water testing and commissioning 
-Hiring professionals reduces the risk of borehole collapse, contamination, or low water yield.
-________________________________________
-6. Borehole Construction Standards
-During drilling, certain technical standards must be followed to ensure the borehole is safe and durable.
-These include:
-•	Proper casing installation to prevent collapse 
-•	Correct borehole depth based on survey results 
-•	Gravel packing for filtration 
-•	Well sealing to prevent contamination 
-•	Installation of efficient pumping systems 
-Following these standards ensures long-term performance and clean water supply.
-________________________________________
-7. Water Quality Testing
-After drilling is completed, water testing must be carried out to determine if the water is safe for consumption.
-Water testing checks for:
-•	Bacterial contamination.
-•	Chemical composition 
-•	pH levels 
-•	Mineral content 
-If necessary, water treatment systems are installed to make the water safe for use.
- 	
-
-8. Borehole Registration
-In some cases, boreholes must be registered with the relevant authorities after completion. This helps regulate groundwater usage and maintain proper records.
-Registration may be required depending on the region and usage type.
-________________________________________
-Conclusion
-Borehole drilling in Kenya is a regulated process that requires proper planning, permits, and technical expertise. From hydrogeological surveys and WRA permits to environmental approvals and water testing, each step plays a critical role in ensuring a successful and sustainable water source.
-At Livam Solutions Ltd, we 
-
+      Borehole drilling in Kenya is one of the most effective solutions for addressing water scarcity in homes, farms, institutions, and businesses. However, before drilling a borehole, there are important legal, technical, and environmental requirements that must be followed. 
       `,
     },
 
     {
-      title: "Solar Borehole Pumps vs Electric Pumps: Which Is Better for Your Borehole?",
+    slug: "solar-vs-electric-borehole-pumps",
+    title: "Solar Borehole Pumps vs Electric Pumps: Which Is Better for Your Borehole?",
       content: `
       Choosing the right pump is one of the most important decisions when installing a borehole water system. The two most common options available in Kenya are solar borehole pumps and electric borehole pumps. Both systems are designed to extract water from underground sources, but they differ in terms of installation costs, operating expenses, reliability, and long-term benefits.
 If you are planning to install a borehole for your home, farm, school, business, or institution, understanding the differences between these two pumping solutions will help you make the right investment.
-What Is a Solar Borehole Pump?
-A solar borehole pump uses energy from the sun to power a submersible pump installed inside the borehole. Solar panels generate electricity that drives the pump, allowing water to be pumped directly into storage tanks for later use.
-Solar pumping systems are becoming increasingly popular across Kenya due to rising electricity costs and the abundance of sunshine throughout the year.
-What Is an Electric Borehole Pump?
-An electric borehole pump operates using power supplied by the national electricity grid or a generator. Like solar pumps, electric pumps are installed within the borehole and pump water to storage tanks or distribution systems.
-Electric pumps have been widely used for many years because they provide a reliable and consistent source of water where grid electricity is available.
-Installation Costs
-One of the main differences between solar and electric pumps is the initial installation cost.
-Solar Pumps
-Solar pumping systems generally require a higher upfront investment because they include:
-•	Solar panels 
-•	Solar controllers or inverters 
-•	Mounting structures 
-•	Pumping equipment 
-The initial setup may seem expensive, but it significantly reduces future energy costs.
-Electric Pumps
-Electric pumps usually have lower installation costs if electricity is already available on the property. However, additional costs may arise if power lines need to be extended to the site.
-Running Costs
-Solar Pumps
-Solar pumps have extremely low operating costs because sunlight is free. Once installed, the system requires minimal electricity-related expenses, making it highly economical in the long run.
-For farms and institutions with high water demand, the savings can be substantial over time.
-Electric Pumps
-Electric pumps depend entirely on grid power or generators. Monthly electricity bills can become significant, especially where large volumes of water are pumped daily.
-In areas with frequent power interruptions, generator fuel costs may further increase operating expenses.
-Reliability and Performance
-Solar Pumps
-Modern solar pumps are highly reliable and can provide consistent water supply during daylight hours. Kenya's favorable climate makes solar pumping practical throughout most of the year.
-However, water production may decrease during extended periods of heavy cloud cover. This challenge is usually addressed by installing adequate water storage tanks.
-Electric Pumps
-Electric pumps can operate day and night as long as power is available. They are suitable for applications requiring continuous pumping and high water demand.
-However, power outages can disrupt water supply unless backup generators are available.
-Environmental Impact
-Solar Pumps
-Solar pumping systems are environmentally friendly because they use renewable energy and produce no emissions during operation.
-For organizations seeking sustainable water solutions, solar pumps are often the preferred choice.
-Electric Pumps
-Electric pumps rely on power generated from various energy sources, some of which may have environmental impacts. Generator-powered systems also produce emissions and noise.
-Maintenance Requirements
-Both solar and electric pumps require regular maintenance to ensure efficient operation.
-Solar Pumps
-Maintenance typically includes:
-•	Cleaning solar panels 
-•	Inspecting electrical connections 
-•	Monitoring pump performance 
-Solar systems generally have fewer moving parts, resulting in lower maintenance requirements.
-Electric Pumps
-Electric systems require:
-•	Electrical inspections 
-•	Motor maintenance 
-•	Generator servicing where applicable 
-Maintenance costs may be slightly higher, particularly when generators are involved.
-Which Pump Is Best for Your Property?
-Choose a Solar Borehole Pump If:
-•	You want lower long-term operating costs. 
-•	Your property is in a remote area without reliable electricity. 
-•	You are looking for an environmentally friendly solution. 
-•	You want protection from rising electricity prices. 
-Choose an Electric Borehole Pump If:
-•	You have reliable grid electricity. 
-•	Your operation requires pumping water at all hours. 
-•	You need very high and continuous water output. 
-•	Initial installation cost is a primary concern. 
-The Growing Popularity of Solar Water Pumping in Kenya
-With increasing electricity costs and improved solar technology, many homeowners, farmers, schools, and businesses are switching to solar-powered borehole systems. Solar pumps offer an excellent balance of reliability, sustainability, and long-term savings, making them a smart investment for many properties.
-Conclusion
-Both solar borehole pumps and electric pumps can provide reliable water supply when properly designed and installed. The best choice depends on your water requirements, budget, location, and access to electricity.
-While electric pumps offer continuous operation, solar pumps provide significant savings on energy costs and greater independence from the power grid. For many property owners in Kenya, solar borehole pumping has become the preferred solution due to its efficiency and sustainability.
-At Livam Solutions Ltd, we provide professional borehole drilling, pump installation, solar water pumping systems, borehole maintenance, and water consultancy services across Kenya. Our team can help you assess your water needs and recommend the most suitable pumping solution for your property.
+
 
       `,
     },
 
     {
+      slug: "How to Know if Your Land Has Underground Water",
       title: "How to Know if Your Land Has Underground Water",
       content: `
       Access to a reliable water source is essential for homes, farms, schools, industries, and commercial developments. One of the most common questions property owners ask before investing in a borehole is: How can I know if my land has underground water? While groundwater exists beneath much of Kenya, the quantity, depth, and quality vary from one location to another. Understanding the signs and professional methods used to identify groundwater can help you make an informed decision before drilling.
@@ -229,6 +103,7 @@ If you are considering drilling a borehole in Kenya, consulting experienced prof
     },
 
     {
+      slug: "Borehole Maintenance Checklist for Kenyan Property Owners",
       title: "Borehole Maintenance Checklist for Kenyan Property Owners",
       content: `
       A borehole is a valuable investment that provides a reliable and independent source of water for homes, farms, schools, businesses, and institutions. However, like any water system, a borehole requires regular maintenance to ensure it continues operating efficiently and delivers clean, safe water. Neglecting maintenance can lead to reduced water yield, pump failure, increased operating costs, and expensive repairs.
@@ -420,6 +295,7 @@ At Livam Solutions Ltd, we provide professional borehole maintenance, pump servi
     },
 
     {
+      slug: "Borehole Drilling Cost in Kenya (2026 Guide)",
       title: "Borehole Drilling Cost in Kenya (2026 Guide)",
       content: `
       Access to a reliable water source is becoming increasingly important for homeowners, farmers, schools, businesses, and institutions across Kenya. As water demand grows and municipal supplies become less reliable in some areas, many property owners are turning to boreholes as a long-term solution. One of the most common questions asked before starting a project is: How much does it cost to drill a borehole in Kenya in 2026?
@@ -509,6 +385,7 @@ At Livam Solutions Ltd, we provide professional hydrogeological surveys, borehol
     },
 
      {
+      slug: "10 Benefits of Drilling a Borehole for Your Home or Farm",
       title: "10 Benefits of Drilling a Borehole for Your Home or Farm",
       content: `
   Access to a reliable water supply is essential for every home, farm, business, and institution. In Kenya, increasing water demand, population growth, and occasional shortages from municipal water providers have led many property owners to invest in boreholes as a long-term solution. A borehole provides direct access to underground water, offering a dependable and cost-effective source of water throughout the year.
@@ -660,6 +537,39 @@ Contact Livam Solutions Ltd today for professional borehole drilling and water s
           Based in <strong>Kakamega</strong>, we proudly serve clients
           throughout Kenya while maintaining high standards of quality,
           professionalism, and customer satisfaction.
+          </p>
+          <p>
+          Access to clean and reliable water is essential for homes, businesses, 
+          farms, schools, hospitals, and industries. In many parts of Kenya, 
+          however, water scarcity remains a major challenge due to changing weather 
+          patterns, population growth, and increasing demand for sustainable water 
+          sources. Borehole drilling has become one of the most effective and dependable 
+          solutions for ensuring a continuous water supply. At Livam Solutions Ltd, we are 
+          committed to helping individuals, organizations, and communities achieve water 
+          independence through professional borehole drilling and comprehensive water solutions.
+        </p>
+        <p>
+          Our mission is simple: to provide sustainable, affordable, and efficient 
+          water solutions that meet the unique needs of every client. We understand 
+          that access to water is not just a convenience, it is a necessity that directly 
+          impacts health, agriculture, education, economic growth, and overall quality of life. 
+          That is why we approach every project with dedication, technical expertise, 
+          and a commitment to excellence.
+        </p>
+        <p>
+          Over the years, we have earned the trust of clients across various sectors, 
+          including residential developments, commercial properties, agricultural farms, 
+          educational institutions, religious organizations, and government projects. 
+          Our extensive portfolio reflects our ability to deliver solutions that are tailored 
+          to specific water requirements while remaining cost-effective and environmentally responsible.
+        </p>
+
+        <p>
+          This blog serves as a resource center where we will share valuable information about 
+          borehole drilling, water management, water conservation, solar pumping systems, 
+          industry regulations, maintenance tips, and the latest developments in Kenya's water 
+          sector. Our goal is to educate, inform, and empower our readers with practical 
+          knowledge that helps them make better decisions regarding their water needs.
         </p>
       </div>
 
@@ -713,6 +623,17 @@ Contact Livam Solutions Ltd today for professional borehole drilling and water s
           institutions, farms, and businesses.
         </p>
       </div>
+      {/* Articles */}
+<div className="text-center mb-5" data-aos="fade-up">
+  <h1 className="fw-bold" style={{ color: "#01327b" }}>
+    Knowledge Center
+  </h1>
+
+  <p className="lead text-muted fw-bold">
+    Expert insights, practical guides, and industry updates on borehole drilling,
+    water solutions and sustainable water management across Kenya.
+  </p>
+</div>
 
       {/* Blog Cards */}
       <section className="py-4">
@@ -743,20 +664,10 @@ Contact Livam Solutions Ltd today for professional borehole drilling and water s
                     : `${blog.content.substring(0, 180)}...`}
                 </p>
 
-                <button
-                  className="btn btn-primary mt-auto"
-                  onClick={() =>
-                    setExpanded(
-                      expanded === index
-                        ? null
-                        : index
-                    )
-                  }
-                >
-                  {expanded === index
-                    ? "Show Less"
-                    : "Read More"}
-                </button>
+                <Link to={`/blog/${blog.slug}`} className="btn btn-primary mt-auto"
+>
+  Read More
+</Link>
 
               </div>
             </div>
@@ -785,6 +696,13 @@ Contact Livam Solutions Ltd today for professional borehole drilling and water s
         <p>
           Every project receives dedicated planning and execution to
           deliver sustainable and reliable water access.
+        </p>
+        <p>
+          Thank you for visiting the Livam Solutions Ltd blog. We invite you 
+          to explore our articles, learn more about our services, and discover 
+          how professional water solutions can transform your home, farm, institution, 
+          or business. If you are considering a borehole project or need expert advice on 
+          water solutions anywhere in Kenya, our team is ready to assist you every step of the way.
         </p>
       </div>
 

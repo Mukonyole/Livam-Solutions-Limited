@@ -25,7 +25,7 @@
 
 .navbar-logo {
   display: flex;
-  align-items: center;
+ justify-content: flex-start;
   margin-left: 0;
   padding-left: 0;
 }
@@ -122,10 +122,11 @@
   transition: transform 0.3s ease-in-out;
 }
 .logo {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
   margin-left: 0;
+  border: 2px solid lightblue;
 }

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./header.css";
 import logo from "./logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,8 +14,9 @@ const Header = () => {
     <div className="containerB">
       <nav className="navbar">
         <div className="navbar-logo">
-  <img src={logo} alt="Livam Solutions Limited" className="logo" />
-</div>
+          <img src={logo} alt="Livam Solutions Limited" className="logo" />
+        </div>
+
         <button
           className={`menu-toggle ${isOpen ? "open" : ""}`}
           onClick={toggleMenu}
@@ -23,25 +25,30 @@ const Header = () => {
             {isOpen ? "✖" : "☰"}
           </span>
         </button>
+
         <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
+
           <li>
-            <a href="about">About</a>
+            <Link to="/about">About</Link>
           </li>
+
           <li>
-            <a href="services">Services</a>
+            <Link to="/services">Services</Link>
           </li>
+
           <li>
-            <a href="contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
-        
+
           <li>
-            <a href="gallery">Our Gallery</a>
+            <Link to="/gallery">Our Gallery</Link>
           </li>
-           <li>
-            <a href="blog">Blog</a>
+
+          <li>
+            <Link to="/blog">Blog</Link>
           </li>
         </ul>
       </nav>

@@ -66,8 +66,8 @@ const Footer = () => {
         <div className="container">
           <div className="send flex">
             <div className={`text ${isVisible ? "fade-in" : ""}`}>
-              <span>Do You Have Questions?</span>
-              <p>We'll help you to grow your career and growth.</p>
+              <span>Have a Question or Need a Quote?</span>
+              <p>Our experienced team is ready to deliver professional services tailored to your needs.</p>
             </div>
 
             <a
