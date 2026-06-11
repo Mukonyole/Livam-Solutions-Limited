@@ -127,8 +127,8 @@
   transition: transform 0.3s ease-in-out;
 }
 .logo {
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
@@ -144,8 +144,8 @@
 
 .company-name {
   font-size: 1.2rem;
-  font-weight: 700;
+  font-weight: bold;
   color: White;
   white-space: nowrap;
-  font-size: xx-large;
+  font-size: x-large;
 }
