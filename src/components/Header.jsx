@@ -18,9 +18,11 @@ const Header = () => {
     <div className="containerB">
       <nav className="navbar">
         <div className="navbar-logo">
-          <img src={logo} alt="Livam Solutions Limited" className="logo" />
-        </div>
-
+  <img src={logo} alt="Livam Solutions Limited" className="logo" />
+  <div className="company-name">
+    Livam Solutions Ltd
+  </div>
+</div>
         <button
           className={`menu-toggle ${isOpen ? "open" : ""}`}
           onClick={toggleMenu}
