@@ -32,7 +32,7 @@ export const footer = [
     { list: "Twitter/X", link: "https://twitter.com/livamsolutions" },
     { list: "LinkedIn", link: "https://linkedin.com/company/livamsolutions" },
     { list: "TikTok", link: "https://www.tiktok.com/@livamsolutions_limited?_r=1&_t=ZS-96eQUwHOD5Q" },
-    { list: "YouTube", link: "https://youtube.com/@livamsolutions" },
+    { list: "YouTube", link: "https://www.youtube.com/@LivamSolutionsLtd" },
   ],
 },
 ];
