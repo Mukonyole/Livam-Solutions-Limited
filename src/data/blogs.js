@@ -150,7 +150,7 @@ At Livam Solutions Ltd, we provide end-to-end borehole drilling services, ensuri
   
   {
     slug: "How to Know if Your Land Has Underground Water",
-    title: "How to Know if Your Land Has Underground Water",
+    title: "How to Know if Your Land Has Underground Water.",
     content: (
       <>
       <p>
