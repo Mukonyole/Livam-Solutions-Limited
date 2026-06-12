@@ -27,7 +27,7 @@ export const footer = [
 {
   title: "FOLLOW US",
   text: [
-    { list: "Facebook", link: "https://facebook.com/livamsolutions" },
+    { list: "Facebook", link: "https://www.facebook.com/profile.php?id=61590446234251" },
     { list: "Instagram", link: "https://www.instagram.com/livamsolutions_ltd?igsh=aWZzN3JzZmc3czdi" },
     { list: "Twitter/X", link: "https://twitter.com/livamsolutions" },
     { list: "LinkedIn", link: "https://linkedin.com/company/livamsolutions" },

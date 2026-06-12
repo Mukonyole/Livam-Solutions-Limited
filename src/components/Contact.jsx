@@ -39,7 +39,7 @@ const Contact = () => {
     <h5>Follow Us</h5>
 
     <a
-      href="https://www.facebook.com/yourpage"
+      href="https://www.facebook.com/profile.php?id=61590446234251"
       target="_blank"
       rel="noreferrer"
       className="me-3 text-primary social-icon"
@@ -47,7 +47,7 @@ const Contact = () => {
       <FaFacebook size={25} />
     </a>
   <a
-       href="https://instagram.com"
+       href="https://www.instagram.com/livamsolutions_ltd?igsh=aWZzN3JzZmc3czdi"
        target="_blank"
        rel="noopener noreferrer"
        className="me-3 text-primary social-icon"
@@ -63,7 +63,7 @@ const Contact = () => {
   <FaYoutube />
 </a>
     <a
-      href="https://www.tiktok.com/@yourusername"
+      href="https://www.tiktok.com/@livamsolutions_limited?_r=1&_t=ZS-96eQUwHOD5Q"
       target="_blank"
       rel="noreferrer"
       className="me-3 text-dark social-icon"
