@@ -39,6 +39,7 @@
   list-style: none;
   gap: 1.5rem;
   margin-left: auto;
+  margin-right: 30px; /* Add this */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -127,8 +128,8 @@
   transition: transform 0.3s ease-in-out;
 }
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   object-fit: cover;
   display: block;
@@ -147,5 +148,5 @@
   font-weight: bold;
   color: White;
   white-space: nowrap;
-  font-size: x-large;
+  font-size: large;
 }

@@ -456,90 +456,91 @@ At Livam Solutions Ltd, we provide professional borehole maintenance, pump servi
     title: "Borehole Drilling Cost in Kenya (2026 Guide)",
     content: (
       <>
-      Access to a reliable water source is becoming increasingly important for homeowners, farmers, schools, businesses, and institutions across Kenya. As water demand grows and municipal supplies become less reliable in some areas, many property owners are turning to boreholes as a long-term solution. One of the most common questions asked before starting a project is: How much does it cost to drill a borehole in Kenya in 2026?
-The answer depends on several factors, including location, geology, borehole depth, pump type, and additional infrastructure. Understanding these costs can help you budget effectively and avoid unexpected expenses.
-Average Borehole Drilling Cost in Kenya
+      <p>
+      Access to a reliable water source is becoming increasingly important for homeowners, farmers, 
+      schools, businesses, and institutions across Kenya. As water demand grows and municipal 
+      supplies become less reliable in some areas, many property owners are turning to boreholes 
+      as a long-term solution. One of the most common questions asked before starting a project 
+      is: <strong>How much does it cost to drill a borehole in Kenya in 2026?</strong> The answer depends on several factors, including location, geology, borehole depth, pump type, and additional infrastructure. Understanding these costs can help you budget effectively and avoid unexpected expenses.
+</p>
+<h4>Average Borehole Drilling Cost in Kenya</h4>
+<p>
 In 2026, borehole drilling rates in Kenya generally range between KSh 3,500 and KSh 10,000 per meter, depending on the drilling method, geological conditions, and region. Most completed borehole projects cost anywhere from KSh 500,000 to over KSh 2 million when all components are included. 
 The wide variation in cost is due to differences in depth, rock formations, equipment requirements, and water system specifications.
-Major Cost Components
-1. Hydrogeological Survey
-Before drilling begins, a professional hydrogeological survey is conducted to identify the most suitable drilling location and estimate groundwater depth.
-Typical cost:
-•	KSh 35,000 – 65,000 
-A survey helps reduce the risk of drilling a dry or low-yield borehole. 
-2. Borehole Drilling
-Drilling is usually the largest cost component.
-Approximate drilling rates:
-Depth Range	Estimated Cost
-30–60 m	KSh 90,000 – 240,000
-60–100 m	KSh 210,000 – 500,000
-100–150 m	KSh 450,000 – 975,000
-150 m+	KSh 825,000+
-Actual costs depend heavily on geological conditions and drilling difficulty. 
-3. Casing and Gravel Packing
-After drilling, casing pipes are installed to prevent borehole collapse and protect water quality.
-Typical casing costs vary depending on:
-•	Borehole depth 
-•	PVC or steel casing 
-•	Geological conditions 
-This component can add several hundred thousand shillings to the total project cost. 
-4. Test Pumping and Water Analysis
-Test pumping determines:
-•	Water yield 
-•	Sustainability of the aquifer 
-•	Pump sizing requirements 
-Water analysis helps identify issues such as:
-•	Fluoride 
-•	Iron 
-•	Salinity 
-•	Bacterial contamination 
-These tests are essential before the borehole is commissioned. 
-5. Pump Installation
-Once the borehole is completed, a pumping system is installed.
-Typical pump costs:
-•	Electric submersible pumps: KSh 50,000 – 200,000 
-•	Solar-powered pumping systems: KSh 300,000 – 800,000+ 
-Solar pumping systems require a higher initial investment but offer significant long-term savings on electricity costs. 
-6. Water Storage and Distribution
-Additional costs may include:
-•	Water storage tanks 
-•	Pipework 
-•	Control systems 
-•	Tank towers 
-•	Water treatment equipment 
-The final amount depends on the property's water demand and system design. 
-Factors That Affect Borehole Drilling Costs
-Geological Formation
-Hard rock formations require more specialized equipment and longer drilling times, increasing costs.
-Borehole Depth
-Deeper boreholes require more drilling, casing, and pump capacity, making them more expensive.
-Location
-Remote locations may attract additional mobilization charges due to transportation of drilling equipment.
-Water Yield Requirements
-Large farms, schools, and commercial facilities often require higher-yield boreholes and larger pumping systems.
-Pump Type
-Solar-powered systems typically cost more upfront than electric pumps but can significantly reduce operating expenses over time.
-Typical Borehole Project Budget
-For many domestic and small commercial projects in Kenya, property owners should budget approximately:
-Project Type	Estimated Budget
-Small domestic borehole	KSh 500,000 – 1,000,000
-Standard residential/commercial borehole	KSh 800,000 – 1,500,000
-Large farm or institutional borehole	KSh 1,500,000+
-Actual costs may vary depending on site conditions and project specifications. 
-How to Avoid Unexpected Costs
-Before hiring a contractor:
-•	Request a detailed written quotation. 
-•	Confirm whether casing is included. 
-•	Verify survey and permit requirements. 
-•	Ask about test pumping and water analysis charges. 
-•	Ensure the contractor is properly licensed. 
-•	Compare multiple quotations before making a decision. 
-A low drilling rate may not always represent the lowest overall project cost. Hidden charges often appear later if quotations are not fully itemized. 
-Conclusion
+</p>
+<h5>Major Cost Components</h5>
+<strong>1. Hydrogeological Survey</strong><br/>
+Before drilling begins, a professional hydrogeological survey is conducted to identify the most suitable drilling location and estimate groundwater depth.<br/>
+It cost KSh 35,000 – 65,000. A survey helps reduce the risk of drilling a dry or low-yield borehole.<br/> <br/>
+<strong>2. Borehole Drilling</strong><br/>
+Drilling is usually the largest cost component. Find below approximate drilling cost.<br/>
+Approximate drilling rates:<br/>
+
+• 30–60 m costs	KSh 90,000 to 240,000<br/>
+• 60–100 m costs KSh 210,000 to 500,000<br/>
+• 100–150 m costs	KSh 450,000 to 975,000<br/>
+• 150 m+ is KSh 825,000+<br/>
+Actual costs depend heavily on geological conditions and drilling difficulty.<br/> 
+<strong>3. Casing and Gravel Packing</strong><br/>
+After drilling, casing pipes are installed to prevent borehole collapse and protect water quality.<br/>
+Typical casing costs vary depending on:<br/>
+•	Borehole depth<br/> 
+•	PVC or steel casing<br/> 
+•	Geological conditions <br/>
+This component can add several hundred thousand shillings to the total project cost.<br/> 
+<strong>4. Test Pumping and Water Analysis</strong><br/>
+-Test pumping determines Water yield, Sustainability of the aquifer and Pump sizing requirements<br/> 
+-Water analysis helps identify issues such as Fluoride, Iron, Salinity and Bacterial contamination<br/> 
+-These tests are essential before the borehole is commissioned.<br/> 
+<strong>5. Pump Installation</strong><br/>
+Once the borehole is completed, a pumping system is installed.<br/>
+Typical pump costs:<br/>
+•	Electric submersible pumps: KSh 50,000 – 200,000<br/> 
+•	Solar-powered pumping systems: KSh 300,000 – 800,000+<br/> 
+Solar pumping systems require a higher initial investment but offer significant long-term savings on electricity costs.<br/> 
+<strong>6. Water Storage and Distribution</strong><br/>
+Additional costs may include:<br/>
+•	Water storage tanks<br/>
+•	Pipework <br/>
+•	Control systems<br/> 
+•	Tank towers<br/>
+•	Water treatment equipment<br/> 
+-The final amount depends on the property's water demand and system design. 
+<h5>Factors That Affect Borehole Drilling Costs</h5>
+<strong>1. Geological Formation</strong><br/>
+Hard rock formations require more specialized equipment and longer drilling times, increasing costs.<br/>
+<strong>2. Borehole Depth</strong><br/>
+Deeper boreholes require more drilling, casing, and pump capacity, making them more expensive.<br/>
+<strong>3. Location</strong><br/>
+Remote locations may attract additional mobilization charges due to transportation of drilling equipment.<br/>
+<strong>4. Water Yield Requirements</strong><br/>
+Large farms, schools, and commercial facilities often require higher-yield boreholes and larger pumping systems.<br/>
+<strong>5. Pump Type</strong><br/>
+Solar-powered systems typically cost more upfront than electric pumps but can significantly reduce operating expenses over time.<br/>
+<h5>Typical Borehole Project Budget</h5>
+For many domestic and small commercial projects in Kenya, property owners should budget approximately:<br/>
+• Small domestic borehole	costs KSh 500,000 – 1,000,000<br/>
+• Standard residential/commercial borehole costs	KSh 800,000 – 1,500,000<br/>
+• Large farm or institutional borehole costs KSh 1,500,000+<br/>
+Actual costs may vary depending on site conditions and project specifications.<br/> 
+<h6>How to Avoid Unexpected Costs</h6>
+Before hiring a contractor:<br/>
+•	Request a detailed written quotation.<br/> 
+•	Confirm whether casing is included. <br/>
+•	Verify survey and permit requirements. <br/>
+•	Ask about test pumping and water analysis charges.<br/> 
+•	Ensure the contractor is properly licensed. <br/>
+•	Compare multiple quotations before making a decision.<br/> 
+A low drilling rate may not always represent the lowest overall project cost. Hidden charges 
+often appear later if quotations are not fully itemized. <br/>
+<h5>Conclusion</h5>
+<p>
 The cost of drilling a borehole in Kenya in 2026 depends on several factors, including depth, geology, location, pump type, and system requirements. While some projects may cost a few hundred thousand shillings, fully equipped borehole systems can exceed KSh 2 million depending on complexity and water demand. 
 A successful borehole project begins with a professional hydrogeological survey, proper planning, and working with experienced drilling specialists.
-At Livam Solutions Ltd, we provide professional hydrogeological surveys, borehole drilling, pump installation, solar water pumping systems, borehole maintenance, and complete water solutions across Kenya. Contact us today for a customized borehole drilling quotation and expert guidance on your water project.
-      `,
+</p>
+<p>
+At Livam Solutions Ltd, we provide professional hydrogeological surveys, borehole drilling, pump installation, solar water pumping systems, borehole maintenance, and complete water solutions across Kenya. <strong>Contact us </strong>today for a customized borehole drilling quotation and expert guidance on your water project.
+</p>
  
       </>
     ),
@@ -550,23 +551,28 @@ At Livam Solutions Ltd, we provide professional hydrogeological surveys, borehol
     title: "10 Benefits of Drilling a Borehole for Your Home or Farm",
     content: (
       <>
-      Access to a reliable water supply is essential for every home, farm, business, and institution. In Kenya, increasing water demand, population growth, and occasional shortages from municipal water providers have led many property owners to invest in boreholes as a long-term solution. A borehole provides direct access to underground water, offering a dependable and cost-effective source of water throughout the year.
+       <p>
+      Water is the foundation of every successful home, farm, and business. Yet many property owners in Kenya continue to face challenges such as unreliable municipal water supplies, seasonal shortages, and rising water costs. Drilling a borehole provides a dependable source of clean water directly from underground aquifers, giving you greater control over your water needs. Beyond ensuring a consistent supply, a borehole can increase property value, support agricultural activities, and deliver long-term financial savings.
+If you are considering drilling a borehole, here are ten key benefits that make it a worthwhile 
+investment for your home or farm.
+</p>
+<strong>1. Water Independence</strong><br/>
 
-If you are considering drilling a borehole, here are ten key benefits that make it a worthwhile investment for your home or farm.
+One of the biggest advantages of owning a borehole is water independence. Instead of relying solely on county water 
+supplies or water vendors, you have your own dedicated water source on your property.
 
-1. Water Independence
+This means you can continue accessing water even when public supplies are interrupted due to 
+maintenance, rationing, or drought conditions.<br/>
 
-One of the biggest advantages of owning a borehole is water independence. Instead of relying solely on county water supplies or water vendors, you have your own dedicated water source on your property.
-
-This means you can continue accessing water even when public supplies are interrupted due to maintenance, rationing, or drought conditions.
-
-2. Reduced Utility Bills
+<strong>2. Reduced Utility Bills</strong><br/>
 
 Monthly water bills can become a significant expense, especially for households with large families, farms, schools, and businesses.
 
-Although drilling a borehole requires an initial investment, it can significantly reduce or even eliminate dependence on purchased water. Over time, the savings on water bills can offset the cost of installation.
+Although drilling a borehole requires an initial investment, it can significantly reduce or
+ even eliminate dependence on purchased water. Over time, the savings on water bills can offset 
+ the cost of installation.<br/>
 
-3. Increased Property Value
+<strong>3. Increased Property Value</strong><br/>
 
 Properties with reliable water access are generally more attractive to buyers and investors.
 
@@ -577,93 +583,76 @@ Farms
 Commercial buildings
 Schools and institutions
 
-Potential buyers often view a borehole as a valuable asset that reduces future water-related concerns.
+Potential buyers often view a borehole as a valuable asset that reduces future water-related 
+concerns.<br/>
 
-4. Reliable Water Supply Throughout the Year
+<strong>4. Reliable Water Supply Throughout the Year</strong><br/>
 
 Kenya occasionally experiences water shortages and rationing, especially during prolonged dry seasons.
 
-A properly constructed borehole provides a more reliable water source, ensuring that your household, farm, or business continues to operate without interruptions.
+A properly constructed borehole provides a more reliable water source, ensuring that your 
+household, farm, or business continues to operate without interruptions.<br/>
 
-5. Supports Agricultural Activities
+<strong>5. Supports Agricultural Activities</strong><br/>
 
 For farmers, access to sufficient water is essential for crop production and livestock management.
 
-A borehole can support:
+A borehole can support irrigation systems, livestock watering, greenhouse farming fish farming and 
+dairy operations.
 
-Irrigation systems
-Livestock watering
-Greenhouse farming
-Fish farming
-Dairy operations
+Reliable water access can significantly improve farm productivity and profitability.<br/>
 
-Reliable water access can significantly improve farm productivity and profitability.
-
-6. Long-Term Cost Savings
-
+<strong>6. Long-Term Cost Savings</strong><br/>
 While the initial drilling and installation costs may seem substantial, a borehole is a long-term investment.
 
-Once operational, the ongoing costs are typically limited to:
+Once operational, the ongoing costs are typically limited to Pump maintenance, Electricity or 
+solar system upkeep and Periodic inspections. Compared to purchasing water regularly, the long-term savings can be considerable.<br/>
 
-Pump maintenance
-Electricity or solar system upkeep
-Periodic inspections
-
-Compared to purchasing water regularly, the long-term savings can be considerable.
-
-7. Better Water Availability for Expansion
+<strong>7. Better Water Availability for Expansion</strong><br/>
 
 Whether you plan to expand your home, increase agricultural production, or grow your business, adequate water supply is essential.
 
-A borehole provides flexibility for future developments without worrying about limitations in public water supply infrastructure.
+A borehole provides flexibility for future developments without worrying about limitations 
+in public water supply infrastructure.<br/>
 
-8. Convenient and Immediate Access to Water
+<strong>8. Convenient and Immediate Access to Water</strong><br/>
 
 Having a borehole on your property eliminates the need to rely on water bowsers or wait for water deliveries.
 
-Water is available whenever you need it for:
+Water is available whenever you need it for domestic use, cleaning, irrigation, construction projects and livestock management
 
-Domestic use
-Cleaning
-Irrigation
-Construction projects
-Livestock management
+This convenience can save both time and money.<br/>
 
-This convenience can save both time and money.
-
-9. Compatible with Solar Water Pumping Systems
+<strong>9. Compatible with Solar Water Pumping Systems</strong><br/>
 
 Modern boreholes can be equipped with solar-powered pumping systems, allowing property owners to reduce electricity costs while maintaining a reliable water supply.
 
-Solar pumping systems offer:
+Solar pumping systems offer lower operating costs, environmental sustainability, reduced dependence on grid electricity and reliable 
+performance in remote areas. This combination makes boreholes even more economical in the long run.<br/>
 
-Lower operating costs
-Environmental sustainability
-Reduced dependence on grid electricity
-Reliable performance in remote areas
-
-This combination makes boreholes even more economical in the long run.
-
-10. Improved Water Security During Emergencies
-
+<strong>10. Improved Water Security During Emergencies</strong><br/>
+<p>
 Water shortages, droughts, infrastructure failures, and supply disruptions can occur unexpectedly.
 
-A borehole provides an additional layer of security, ensuring access to water when public systems are unavailable. This is particularly important for farms, schools, hospitals, and businesses that depend on continuous water availability.
-
-Is a Borehole Worth the Investment?
+A borehole provides an additional layer of security, ensuring access to water when public systems are unavailable.
+ This is particularly important for farms, schools, hospitals, and businesses that depend on 
+ continuous water availability.<br/>
+</p>
+<h5>Is a Borehole Worth the Investment?</h5>
+<p>
 
 For many Kenyan property owners, the answer is yes. A borehole offers long-term benefits that go beyond simple water access. It provides independence, convenience, cost savings, and peace of mind while increasing the value and functionality of your property.
 
 However, successful borehole development begins with proper planning, including a professional hydrogeological survey, expert drilling services, and quality pump installation.
-
-Conclusion
-
+</p>
+<h5>Conclusion</h5>
+<p>
 Drilling a borehole is one of the most effective ways to secure a reliable and sustainable water supply for your home or farm. From reducing utility bills and increasing property value to supporting agriculture and improving water security, the benefits are substantial.
 
 At Livam Solutions Ltd, we specialize in hydrogeological surveys, borehole drilling, pump installation, solar water pumping systems, borehole maintenance, and complete water solutions across Kenya. Our experienced team is committed to helping clients access dependable water sources that meet their current and future needs.
 
 Contact Livam Solutions Ltd today for professional borehole drilling and water solutions tailored to your property's requirements.
- `,
+    </p> 
       </>
     ),
   },
