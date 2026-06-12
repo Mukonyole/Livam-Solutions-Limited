@@ -97,10 +97,13 @@
     flex-direction: column;
     position: absolute;
     top: 100%;
+    left: 0;
     right: 0;
-    background-color: #01327b;
     width: 100%;
-    padding: 1rem;
+    background-color: #01327b;
+    padding: 1rem 0;
+    margin: 0;
+    z-index: 999;
     animation: slideIn 0.3s ease-in-out;
   }
 
@@ -150,3 +153,7 @@
   white-space: nowrap;
   font-size: large;
 }
+ .navbar-links li {
+    text-align: center;
+    padding: 0.5rem 0;
+  }
