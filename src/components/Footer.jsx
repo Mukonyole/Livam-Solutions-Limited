@@ -140,8 +140,14 @@ const Footer = () => {
             <ul>
               {val.text.map((item, i) => (
                 <li key={i}>
-                  <a href={item.link}>{item.list}</a>
-                </li>
+  <a
+    href={item.link}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    {item.list}
+  </a>
+</li>
               ))}
             </ul>
           </div>
