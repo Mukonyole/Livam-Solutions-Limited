@@ -51,9 +51,14 @@ const HomeServices = () => {
         >
           Who We Are
         </h2>
-        <p className="text-center mb-5">
-          Livam Solutions Limited is a trusted water drilling company based in Kakamega, providing efficient and reliable borehole solutions across Kenya to ensure consistent access to clean water for homes, farms, and businesses.
+        <p >
+          Livam Solutions Limited is a trusted water drilling company based in Kakamega, providing efficient and reliable borehole solutions across Kenya to ensure consistent access to clean water for homes, farms, and businesses. With a strong focus on quality workmanship, modern technology, and customer satisfaction, we strive to provide cost-effective solutions that ensure long-term value and dependable performance. Our experienced team works closely with clients from consultation and site assessment to project execution, testing, and ongoing support, ensuring every project is completed efficiently and to the highest industry standards.
         </p>
+        <p>
+          Over the years, we have built a reputation for professionalism, integrity, and excellence by consistently delivering projects on time and within budget. Our dedication to innovation and continuous improvement enables us to provide practical solutions that address today's challenges while preparing our clients for tomorrow's opportunities.
+          At Livam Solutions Ltd, we don't just provide services, we build lasting relationships based on trust, quality, and exceptional customer care. Partner with us today and experience dependable solutions designed to power progress, enhance productivity, and secure a better future for generations to come.
+  </p>
+        
         <div className="row g-4">
           {services.map((service, index) => (
             <div className="col-md-4" key={index}>

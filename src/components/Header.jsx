@@ -17,10 +17,17 @@ const Header = () => {
   return (
     <div className="containerB">
       <nav className="navbar">
-        <div className="navbar-logo">
+      <div className="navbar-logo">
   <img src={logo} alt="Livam Solutions Limited" className="logo" />
-  <div className="company-name">
-    Livam Solutions Ltd
+
+  <div className="company-info">
+    <div className="company-name">
+      Livam Solutions Ltd
+    </div>
+
+    <div className="tagline">
+      Water for Today, Sustainability for Tomorrow
+    </div>
   </div>
 </div>
         <button
