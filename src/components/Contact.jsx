@@ -26,7 +26,7 @@ const Contact = () => {
               <strong>Address:</strong> Lurambi,Kakamega town, Kenya
             </p>
             <p>
-              <strong>Phone:</strong> +254 722372788
+              <strong>Phone:</strong> +254 733372788
             </p>
             <p>
               <strong>Email:</strong> jmukonyole@gmail.com
