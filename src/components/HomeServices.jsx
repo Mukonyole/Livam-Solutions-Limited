@@ -75,7 +75,9 @@ const HomeServices = () => {
   </p>
    <p>
   In addition, our consultancy services provide expert guidance on water resource management, borehole development, regulatory compliance, and the selection of appropriate water solutions. By utilizing modern equipment, innovative techniques, and best practices, we strive to deliver cost-effective and environmentally responsible solutions that guarantee long-term value.
-  Kindly find below key services that we offer. For more services, kindly click on <strong>Our Services</strong> section to explore more of our services that we offer.
+  Kindly find below key services that we offer. </p>
+  <p>
+  For more services, kindly click on <strong>Our Services</strong> section to explore more of our services that we offer.
 </p> <br/>
 
 <div className="row g-4"></div>

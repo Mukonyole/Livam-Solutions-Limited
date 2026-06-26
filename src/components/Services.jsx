@@ -230,12 +230,26 @@ const Services = () => {
     <p
       style={{
         fontSize: "15px",
-        color: "#666",
+  color: "black",
+  textAlign: "justify",
+  margin: 0,
+  padding: 0,
+  textIndent: 0,
+  lineHeight: "1.8",
+  fontStyle: "italic",
       }}
     >
-      * Costs are estimates only and may vary depending on project location,
-      depth, geology, transport, casing requirements, pump selection,
-      and site conditions.
+      <strong> * The costs provided are intended for estimation purposes only and 
+      should not be considered as final quotations. Actual project costs 
+      may vary depending on several factors, including the location of the 
+      project, the required drilling depth, geological formations encountered, 
+      transportation and mobilization expenses, casing specifications, pump type 
+      and capacity, water yield, and overall site accessibility and conditions. 
+      Additional requirements such as hydrogeological surveys, water quality testing, 
+      power supply installation, or specialized equipment may also affect the final price. 
+      We recommend contacting Livam Solutions Limited for a detailed site assessment and a 
+      customized quotation tailored to your specific water project needs.
+      </strong>
     </p>
   </div>
 
