@@ -33,7 +33,7 @@ Repair and restoration for optimal performance.
 ✔️ Reliable Project Completion<br/>
 ✔️ Strong Customer Support<br/>
 
-<strong>📍 Location<strong><br/>
+📍 Location<br/>
 📌 Kakamega, Kenya<br/>
 We serve clients across Western Kenya and beyond.<br/>
 
