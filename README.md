@@ -27,19 +27,19 @@ Repair and restoration for optimal performance.
 
 4. Water System Solutions-Tank installation, Solar-powered pumping systems.
 
-⭐ Why Choose Livam Solutions Ltd
-✔️ 5+ Years Industry Experience
-✔️ Skilled & Certified Technicians
-✔️ Modern Drilling Equipment
-✔️ Affordable & Transparent Pricing
-✔️ Reliable Project Completion
-✔️ Strong Customer Support
+⭐ Why Choose Livam Solutions Ltd<br/>
+✔️ 5+ Years Industry Experience<br/>
+✔️ Skilled & Certified Technicians<br/>
+✔️ Modern Drilling Equipment<br/>
+✔️ Affordable & Transparent Pricing<br/>
+✔️ Reliable Project Completion<br/>
+✔️ Strong Customer Support<br/>
 
-📍 Location
-📌 Kakamega, Kenya
-We serve clients across Western Kenya and beyond.
+📍 Location<br/>
+📌 Kakamega, Kenya<br/>
+We serve clients across Western Kenya and beyond.<br/>
 
-👥 Our Clients
+👥 Our Clients<br/>
 We proudly serve: Homeowners, Farmers, Schools & Institutions, NGOs, Government Projects and Private Developers.
 
 📈 Our Impact
@@ -47,13 +47,13 @@ We proudly serve: Homeowners, Farmers, Schools & Institutions, NGOs, Government 
 2. Improved access to clean water for communities
 3. Support for agriculture and business growth
 
-🤝 Our Commitment
+🤝 Our Commitment<br/>
 At Livam Solutions Ltd, we are committed to: Sustainability 🌱, Quality workmanship 🔧, Customer satisfaction 😊 and Environmental responsibility 🌍
 
-📞 Contact Us
-📧 Email: info@livamsolutions.co.ke
-📱 Phone: +254 722372788
-📍 Location: Kakamega, Kenya
+📞 Contact Us<br/>
+📧 Email: info@livamsolutions.co.ke<br/>
+📱 Phone: +254 722372788<br/>
+📍 Location: Kakamega, Kenya<br/>
 
 🚀 Tagline
 
