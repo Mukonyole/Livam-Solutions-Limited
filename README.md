@@ -10,10 +10,10 @@ We specialize in providing reliable, efficient, and affordable borehole drilling
 Our mission is simple:
 👉 To ensure every client has access to clean, safe, and sustainable water.
 
-🌍 Our Vision
+🌍 Our Vision<br/>
 To be the leading and most trusted water solutions provider in Kenya, delivering innovative and sustainable water access solutions to every community.
 
-🎯 Our Mission
+🎯 Our Mission<br/>
 To provide high-quality water drilling and related services through modern technology, skilled expertise, and a strong commitment to customer satisfaction.
 
 🛠️ Our Services
