@@ -29,7 +29,7 @@ const Contact = () => {
               <strong>Phone:</strong> +254 733372788
             </p>
             <p>
-              <strong>Email:</strong> jmukonyole@gmail.com
+              <strong>Email:</strong> livamcompany@gmail.com
             </p>
             <p>
               <strong>Hours:</strong> Mon - Sat: 8:00 AM - 5:00 PM
