@@ -75,6 +75,7 @@ const AskedQuestions = () => {
     },
   ];
 
+
   const toggleAnswer = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
@@ -91,7 +92,8 @@ const AskedQuestions = () => {
         Find answers to some of the most frequently asked questions about our
         services. If you have more questions, feel free to contact us.
       </p>
-      <div className="row">
+     
+            <div className="row">
         {faqs.map((faq, index) => (
           <div className="col-lg-6 mb-4" key={index}>
             <div
@@ -120,6 +122,7 @@ const AskedQuestions = () => {
                   <ChevronDown size={20} />
                 )}
               </div>
+
               {activeIndex === index && (
                 <div className="card-body">
                   <p>{faq.answer}</p>
@@ -129,6 +132,57 @@ const AskedQuestions = () => {
           </div>
         ))}
       </div>
+
+      {/* Closing Statement */}
+      <div
+        className="text-center mt-5"
+        data-aos="fade-up"
+        style={{
+          backgroundColor: "#f8f9fa",
+          padding: "40px",
+          borderRadius: "10px",
+        }}
+      >
+       <p
+  style={{
+    width: "100%",
+    lineHeight: "1.8",
+    fontSize: "16px",
+    fontWeight: "bold",
+    color: "#555",
+    textAlign: "justify",
+  }}
+>
+          We understand that every borehole project is unique, and you may have
+          questions that are not covered in our Frequently Asked Questions
+          section. Whether you need guidance on selecting the right drilling
+          location, understanding the drilling process, estimating project
+          costs, choosing a suitable water pump, or learning about maintenance
+          requirements, the experienced team at Livam Solutions is ready to
+          assist you every step of the way. 
+          </p>
+          <p
+          style={{
+    width: "100%",
+    lineHeight: "1.8",
+    fontSize: "16px",
+    fontWeight: "bold",
+    color: "#555",
+    textAlign: "justify",
+  }}>
+            
+          We are committed to delivering
+          reliable, professional, and transparent services tailored to your
+          specific water needs. From residential homes and farms to commercial,
+          industrial, and institutional projects, we provide practical
+          solutions backed by quality workmanship and exceptional customer
+          service. Contact us today for a free consultation, a no-obligation
+          quotation and expert advice on your next borehole project. We look
+          forward to helping you secure a dependable and sustainable water
+          supply for years to come.
+        </p>
+      </div>
+
     </div>
   );
 };

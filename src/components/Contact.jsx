@@ -101,7 +101,38 @@ const Contact = () => {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
+            
           </div>
+        </div>
+         {/* Closing Statement */}
+        <div
+          className="mt-5 pt-4 border-top"
+          data-aos="fade-up"
+        >
+          <h5
+            className="text-center mb-4"
+            style={{ color: "Black", fontWeight: "bold" }}
+          >
+            Let's Build a Reliable Water Future Together
+          </h5>
+
+          <p
+            style={{
+              textAlign: "justify",
+              lineHeight: "1.9",
+              fontSize: "16px",
+              color: "#555",
+            }}
+          >
+            Thank you for considering Livam Solutions as your trusted partner
+            for professional borehole drilling and water solutions. Let's turn your 
+            water project into reality. No project is too big or too small for our 
+            dedicated team. From initial consultation and site surveys to drilling, 
+            pump installation, and after-sales support, we are with you every step 
+            of the way. Reach out today, and let us provide a solution tailored to your 
+            needs with reliable service, competitive pricing, and lasting results.
+          </p>
+
         </div>
       </section>
     </div>

@@ -3,6 +3,7 @@ import { footer } from "../Data";
 import "./footer.css";
 
 
+
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [email, setEmail] = useState("");
@@ -71,23 +72,19 @@ const Footer = () => {
             </div>
 
             <a
-              href={`https://wa.me/254722372788?text=${encodeURIComponent(
-                "Hello customer care @Livam Solutions Limited, I have visited your website and I need your assistance."
-              )}`}
-              className={`btn5 ${isVisible ? "slide-in" : ""}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                textDecoration: "none",
-                color: "#fff",
-                backgroundColor: "#01327b",
-                padding: "10px 20px",
-                borderRadius: "8px",
-                fontWeight: "bold",
-                display: "inline-block",
-              }}
-            >
-              Contact Us Today
+              href="/contact"
+  className={`btn5 ${isVisible ? "slide-in" : ""}`}
+  style={{
+    textDecoration: "none",
+    color: "#fff",
+    backgroundColor: "#01327b",
+    padding: "10px 20px",
+    borderRadius: "8px",
+    fontWeight: "bold",
+    display: "inline-block",
+  }}
+>
+  Contact Us Today
             </a>
           </div>
         </div>
