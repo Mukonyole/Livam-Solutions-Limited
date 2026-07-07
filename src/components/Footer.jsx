@@ -147,7 +147,15 @@ const Footer = () => {
       {item.list}
     </a>
   ) : (
-    <Link to={item.link}>
+    <Link
+      to={item.link}
+      onClick={() =>
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        })
+      }
+    >
       {item.list}
     </Link>
   )}
