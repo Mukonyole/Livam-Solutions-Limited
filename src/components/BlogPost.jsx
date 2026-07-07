@@ -7,7 +7,7 @@ function BlogPost() {
 
   const blog = blogs.find((item) => item.slug === slug);
 
-  // ✅ ADD THIS (scroll to top on page load)
+  // (scroll to top on page load)
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [slug]);
