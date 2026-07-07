@@ -8,10 +8,12 @@ import Gallery from "./components/Gallery";
 import Blog from "./components/Blog";
 import BlogPost from "./components/BlogPost";
 import Dashboard from "./components/Dashboard";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />

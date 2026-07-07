@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { footer } from "../Data";
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 
 
@@ -136,14 +137,20 @@ const Footer = () => {
 
             <ul>
               {val.text.map((item, i) => (
-                <li key={i}>
-  <a
-    href={item.link}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    {item.list}
-  </a>
+     <li key={i}>
+  {item.link.startsWith("http") ? (
+    <a
+      href={item.link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {item.list}
+    </a>
+  ) : (
+    <Link to={item.link}>
+      {item.list}
+    </Link>
+  )}
 </li>
               ))}
             </ul>
