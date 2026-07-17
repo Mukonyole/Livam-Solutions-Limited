@@ -9,6 +9,7 @@ import Blog from "./components/Blog";
 import BlogPost from "./components/BlogPost";
 import Dashboard from "./components/Dashboard";
 import ScrollToTop from "./components/ScrollToTop";
+import ServiceDetails from "./components/ServiceDetails";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/services/:slug"element={<ServiceDetails />} />
         </Route>
 
         <Route path="/v-admin" element={<Dashboard />} />

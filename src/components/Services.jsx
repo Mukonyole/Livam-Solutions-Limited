@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 // Import your local images
 import wellDrillingImage from "../images/truck.jpg";
@@ -13,47 +14,56 @@ import tankImage from "../images/tank.jpg";
 
 const Services = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000 });
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
   }, []);
 
-  const services = [
-    {
-      title: "Borehole Drilling",
-      description:
-        "We provide complete borehole drilling services including professional drilling, installation of durable casing pipes and proper gravel packing to ensure a safe, stable and high-yield water source.",
-      image: wellDrillingImage,
-    },
-    {
-      title: "Borehole Maintenance",
-      description:
-        "We provide professional borehole maintenance services to ensure your water system operates efficiently at optimal performance throughout its lifespan. Our maintenance services include inspection and servicing of pumps, cleaning and flushing of boreholes, removal of silt and debris and testing water flow and quality.",
-      image: boreholeMaintenanceImage,
-    },
-    {
-      title: "Water Testing and Consultancy",
-      description:
-        "We provide comprehensive water testing and consultancy services to ensure safe, efficient, and sustainable water use. Our process involves detailed laboratory analysis to assess water quality, alongside expert advisory to guide clients on the best water management, treatment, and system solutions.",
-      image: waterConsultancyImage,
-    },
-    {
-      title: "Site Survey",
-      description:
-        "We provide professional site survey services to determine the best location, depth, and success rate of your borehole before drilling begins. Our scientific approach minimizes risks and ensures reliable water access.",
-      image: siteSurveyImage,
-    },
-     {
-      title: "Pump installation",
-      description:
-        "We provide professional pump installation services to ensure efficient, reliable, and long-lasting water extraction from your borehole or water source. Our solutions are tailored to match your water demand, borehole depth, and system requirements.",
-      image: pumpImage,
-    },
-    {
-      title: "Water Storage Solutions",
-      description:
-        "We provide reliable and efficient water storage solutions designed to ensure a consistent and uninterrupted water supply for domestic, agricultural, and commercial use. Our services include the installation of high-quality water storage tanks, elevated tank towers, and complete distribution systems tailored to your specific needs.",
-      image: tankImage,
-    },
-  ];
+const services = [
+  {
+    title: "Borehole Drilling",
+    slug: "borehole-drilling",
+    description:
+      "We provide complete borehole drilling services including professional drilling, installation of durable casing pipes and proper gravel packing to ensure a safe, stable and high-yield water source.",
+    image: wellDrillingImage,
+  },
+  {
+    title: "Borehole Maintenance",
+    slug: "borehole-maintenance",
+    description:
+      " A well-maintained borehole is essential for ensuring a reliable, safe and uninterrupted water supply..",
+    image: boreholeMaintenanceImage,
+  },
+  {
+    title: "Water Testing and Consultancy",
+    slug: "water-testing-consultancy",
+    description:
+      "At Livam Solutions Limited, we believe that access to clean, safe and reliable water is essential...",
+    image: waterConsultancyImage,
+  },
+  {
+    title: "Site Survey",
+    slug: "site-survey",
+    description:
+      "Every successful borehole project begins with a professional site survey. This crucial first...",
+    image: siteSurveyImage,
+  },
+  {
+    title: "Pump Installation",
+    slug: "pump-installation",
+    description:
+      "We provide professional pump installation services to ensure efficient, reliable, and long-lasting water extraction from your borehole or water source. Our solutions are tailored to match your water demand, borehole depth, and system requirements.",
+    image: pumpImage,
+  },
+  {
+    title: "Water Storage Solutions",
+    slug: "water-storage-solutions",
+    description:
+      "Our Water Storage Solutions are designed to ensure that homes, farms, businesses...",
+    image: tankImage,
+  },
+];
 
   return (
     <div style={{ backgroundColor: "#e2dfdf" }}>
@@ -69,11 +79,11 @@ const Services = () => {
           Our Services
         </h2>
         <p className="text-center mb-5">
-          At Livam Solutions ltd, we are dedicated to providing
-          high-quality water solutions tailored to meet your needs. Whether it's
-          drilling water wells, maintaining boreholes, or offering expert
-          consultancy, we are committed to delivering excellence in every
-          project we undertake.
+          At Livam Solutions Limited, we are dedicated to delivering high-quality, reliable 
+          and sustainable water solutions tailored to meet the unique needs of our clients. 
+          Whether you require professional site surveys, borehole drilling, pump installation, 
+          borehole maintenance, water testing, water storage solutions, or expert consultancy, 
+          our experienced team is committed to excellence at every stage of the project. We offer the following services.
         </p>
         <div className="row g-4">
           {services.map((service, index) => (
@@ -98,10 +108,25 @@ const Services = () => {
                     objectFit: "cover",
                   }}
                 />
-                <div className="card-body text-center">
-                  <h5 className="card-title fw-bold">{service.title}</h5>
-                  <p className="card-text">{service.description}</p>
-                </div>
+                <div className="card-body text-center d-flex flex-column">
+  <h5 className="card-title fw-bold">{service.title}</h5>
+
+  <p className="card-text flex-grow-1">
+  {service.description.split(" ").slice(0, 15).join(" ")}...
+</p>
+
+<Link
+  to={`/services/${service.slug}`}
+  style={{
+    color: "#01327b",
+    fontWeight: "bold",
+    textDecoration: "none",
+  }}
+>
+  Learn More →
+</Link>
+
+</div>
               </div>
             </div>
           ))}
