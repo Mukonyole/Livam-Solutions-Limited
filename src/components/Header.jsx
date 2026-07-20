@@ -21,14 +21,18 @@ const Header = () => {
   <img src={logo} alt="Livam Solutions Limited" className="logo" />
 
   <div className="company-info">
-    <div className="company-name">
-      Livam Solutions Ltd
-    </div>
-
-    <div className="tagline">
-      Water for Today, Sustainability for Tomorrow
-    </div>
+  <div className="company-name">
+    Livam Solutions Ltd
   </div>
+
+  <div className="tagline">
+    Water for Today, Sustainability for Tomorrow
+  </div>
+
+  <div className="company-phone">
+  📞 <a href="tel:+254733372788">+254 733 372 788</a>
+</div>
+</div>
 </div>
         <button
           className={`menu-toggle ${isOpen ? "open" : ""}`}

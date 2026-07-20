@@ -179,3 +179,19 @@
   margin-top: 2px;
   line-height: 1.2;
 }
+
+.company-phone {
+  font-size: 13px;
+  margin-top: 3px;
+  font-weight: 500;
+}
+
+.company-phone a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.company-phone a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
