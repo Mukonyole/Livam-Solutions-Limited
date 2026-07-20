@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./header.css";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
+import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,23 +17,32 @@ const Header = () => {
 
   return (
     <div className="containerB">
+      <div className="top-bar">
+  <div className="top-bar-contact">
+    <FaPhoneAlt className="top-icon" />
+    <a href="tel:+254722372788">+254 733 372 788</a>
+
+    <span className="divider">|</span>
+
+    <FaEnvelope className="top-icon" />
+    <a href="mailto:info@livamsolutions.co.ke">
+      livamcompany@gmail.com
+    </a>
+  </div>
+</div>
       <nav className="navbar">
       <div className="navbar-logo">
   <img src={logo} alt="Livam Solutions Limited" className="logo" />
 
   <div className="company-info">
-  <div className="company-name">
-    Livam Solutions Ltd
-  </div>
+    <div className="company-name">
+      Livam Solutions Ltd
+    </div>
 
-  <div className="tagline">
-    Water for Today, Sustainability for Tomorrow
+    <div className="tagline">
+      Water for Today, Sustainability for Tomorrow
+    </div>
   </div>
-
-  <div className="company-phone">
-  📞 <a href="tel:+254733372788">+254 733 372 788</a>
-</div>
-</div>
 </div>
         <button
           className={`menu-toggle ${isOpen ? "open" : ""}`}

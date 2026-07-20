@@ -18,7 +18,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 1rem 1rem 1rem 0;  /* 👈 removes left gap */
+  padding: 4px 30px;  /* 👈 removes left gap */
   background-color: #01327b;
   position: fixed;
   top: 0;
@@ -26,6 +26,10 @@
   right: 0;
   z-index: 1000;
   margin: 0;
+  margin-top: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+
 }
 
 .navbar-logo {
@@ -171,6 +175,8 @@
   .company-info {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: -5px;
 }
 .tagline {
   font-size: 0.75rem;
@@ -179,19 +185,42 @@
   margin-top: 2px;
   line-height: 1.2;
 }
-
-.company-phone {
-  font-size: 13px;
-  margin-top: 3px;
-  font-weight: 500;
+.top-bar {
+  background-color: #01327b;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2px 30px;
+  margin-bottom: 0;
+}
+.top-bar-contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
-.company-phone a {
+.top-bar-contact a {
   color: #ffffff;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 12px; /* Reduced from the default */
+  transition: color 0.3s ease;
 }
 
-.company-phone a:hover {
+.top-bar-contact a:hover {
   color: #ffd700;
-  text-decoration: underline;
+}
+
+.top-bar-contact span {
+  color: #ffd700;
+}
+
+.divider {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 6px;
+  font-size: 11px;
+}
+.top-icon {
+  color: white; /* Gold */
+  font-size: 11px;
 }
