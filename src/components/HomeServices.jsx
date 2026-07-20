@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 import wellDrillingImage from "../images/truck.jpg";
 import waterConsultancyImage from "../images/truck3.jpg";
-import ConsultancyImage from "../images/truck2.jpg";
+import ConsultancyImage from "../images/tank.jpg";
 
 const HomeServices = () => {
   useEffect(() => {
@@ -16,19 +16,19 @@ const HomeServices = () => {
     {
       title: "Borehole Drilling",
       description:
-        "We provide professional water drilling services, ensuring a reliable and sustainable water source for your needs.",
+        "We provide professional borehole drilling services using modern equipment and proven techniques to deliver reliable, high-yield water sources. From site assessment and drilling to casing installation and well development, our experienced team ensures every borehole is constructed safely, efficiently, and in accordance with industry standards for long-term performance.",
       image: wellDrillingImage,
     },
     {
-      title: "Borehole Maintenance",
+      title: "Pump Installation",
       description:
-        "Our borehole maintenance services ensure optimal performance and longevity of your water systems.",
+        "We provide professional installation of high-quality submersible pumps for residential, agricultural, commercial, institutional, and industrial boreholes. Our experienced technicians carefully select, install, and test each pumping system to ensure maximum efficiency, reliable performance, optimal water delivery, and long-term durability, giving clients a dependable and uninterrupted water supply.",
       image: waterConsultancyImage,
     },
     {
-      title: "Water Testing and Consultancy",
+      title: "Water Storage Solutions",
       description:
-        "Get expert advice on water management and solutions tailored to your unique requirements.",
+        "We design and install reliable water storage systems, including water tanks, steel towers, pipelines, and distribution networks, to ensure a consistent and uninterrupted water supply. Our tailored solutions are built for durability, efficiency, and long-term performance, serving residential, agricultural, commercial, institutional, and industrial clients.",
       image: ConsultancyImage,
     },
   ];
@@ -104,15 +104,25 @@ const HomeServices = () => {
                     objectFit: "cover",
                   }}
                 />
-                <div className="card-body text-center">
-                  <h5
-                    className="card-title fw-bold"
-                    style={{ color: "#01327b" }}
-                  >
-                    {service.title}
-                  </h5>
-                  <p className="card-text">{service.description}</p>
-                </div>
+                <div className="card-body">
+  <h5
+    className="card-title fw-bold text-center"
+    style={{ color: "#01327b" }}
+  >
+    {service.title}
+  </h5>
+
+  <p
+    className="card-text"
+    style={{
+      textAlign: "left",
+      margin: 0,
+      lineHeight: "1.8",
+    }}
+  >
+    {service.description}
+  </p>
+</div>
               </div>
             </div>
           ))}

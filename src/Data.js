@@ -14,12 +14,12 @@ export const footer = [
   {
     title: "OUR SERVICES",
     text: [
-      { list: "Borehole Drilling", link: "/services" },
-      { list: "Borehole Maintenance", link: "/services" },
-      { list: "Site Survey", link: "/services" },
-      { list: "Pump Installation", link: "/services" },
-      { list: "Water Testing and Consultancy", link: "/services" },
-      { list: "Water Storage Solutions", link: "/services" },
+      { list: "Borehole Drilling", link: "/services/borehole-drilling" },
+      { list: "Borehole Maintenance", link: "/services/borehole-maintenance" },
+      { list: "Site Survey", link: "/services/site-survey" },
+      { list: "Pump Installation", link: "/services/pump-installation" },
+      { list: "Water Testing and Consultancy", link: "/services/water-testing-consultancy" },
+      { list: "Water Storage Solutions", link: "/services/water-storage-solutions" },
       
 
     ],
