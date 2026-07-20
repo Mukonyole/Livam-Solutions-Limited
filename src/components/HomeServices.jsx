@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 import wellDrillingImage from "../images/truck.jpg";
 import waterConsultancyImage from "../images/truck3.jpg";
@@ -14,19 +15,22 @@ const HomeServices = () => {
 
   const services = [
     {
-      title: "Borehole Drilling",
-      description:
+    title: "Borehole Drilling",
+    slug: "borehole-drilling",
+    description:
         "We provide professional borehole drilling services using modern equipment and proven techniques to deliver reliable, high-yield water sources. From site assessment and drilling to casing installation and well development, our experienced team ensures every borehole is constructed safely, efficiently, and in accordance with industry standards for long-term performance.",
       image: wellDrillingImage,
     },
     {
-      title: "Pump Installation",
+    title: "Pump Installation",
+    slug: "pump-installation",
       description:
         "We provide professional installation of high-quality submersible pumps for residential, agricultural, commercial, institutional, and industrial boreholes. Our experienced technicians carefully select, install, and test each pumping system to ensure maximum efficiency, reliable performance, optimal water delivery, and long-term durability, giving clients a dependable and uninterrupted water supply.",
       image: waterConsultancyImage,
     },
     {
-      title: "Water Storage Solutions",
+    title: "Water Storage Solutions",
+    slug: "water-storage-solutions",
       description:
         "We design and install reliable water storage systems, including water tanks, steel towers, pipelines, and distribution networks, to ensure a consistent and uninterrupted water supply. Our tailored solutions are built for durability, efficiency, and long-term performance, serving residential, agricultural, commercial, institutional, and industrial clients.",
       image: ConsultancyImage,
@@ -85,66 +89,93 @@ const HomeServices = () => {
         <div className="row g-4">
           {services.map((service, index) => (
             <div className="col-md-4" key={index}>
-              <div
-                className="card shadow-sm border-0 h-100"
-                style={{
-                  backgroundColor: "#ffffff", // White background for cards
-                  borderRadius: "8px",
-                  overflow: "hidden",
-                }}
-                data-aos="fade-up"
-                data-aos-delay={index * 100}
-              >
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="card-img-top"
-                  style={{
-                    height: "200px",
-                    objectFit: "cover",
-                  }}
-                />
-                <div className="card-body">
-  <h5
-    className="card-title fw-bold text-center"
-    style={{ color: "#01327b" }}
+  <Link
+    to={`/services/${service.slug}`}
+    style={{ textDecoration: "none", color: "inherit" }}
   >
-    {service.title}
-  </h5>
+    <div
+  className="card service-card shadow-sm border-0 h-100"
+  style={{
+    backgroundColor: "#ffffff",
+    borderRadius: "8px",
+    overflow: "hidden",
+  }}
+  data-aos="fade-up"
+  data-aos-delay={index * 100}
+>
+      <img
+        src={service.image}
+        alt={service.title}
+        className="card-img-top"
+        style={{
+          height: "200px",
+          objectFit: "cover",
+        }}
+      />
 
-  <p
-    className="card-text"
-    style={{
-      textAlign: "left",
-      margin: 0,
-      lineHeight: "1.8",
-    }}
-  >
-    {service.description}
-  </p>
+      <div className="card-body">
+        <h5
+          className="card-title fw-bold text-center"
+          style={{ color: "#01327b" }}
+        >
+          {service.title}
+        </h5>
+
+        <p
+          className="card-text"
+          style={{
+            textAlign: "left",
+            margin: 0,
+            lineHeight: "1.8",
+          }}
+        >
+          {service.description}
+        </p>
+      </div>
+    </div>
+  </Link>
 </div>
-              </div>
-            </div>
           ))}
         </div>
       </section>
 
       {/* Gradient Animation CSS */}
-      <style>
-        {`
-          @keyframes gradientAnimation {
-            0% {
-              background-position: 0% 50%;
-            }
-            50% {
-              background-position: 100% 50%;
-            }
-            100% {
-              background-position: 0% 50%;
-            }
-          }
-        `}
-      </style>
+    <style>
+  {`
+    @keyframes gradientAnimation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+
+    .service-card {
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .service-card:hover {
+      background-color: #015e7b !important;
+      color: #fff !important;
+      transform: translateY(-6px);
+      box-shadow: 0 12px 25px rgba(1, 50, 123, 0.4) !important;
+    }
+
+    .service-card:hover .card-title,
+    .service-card:hover .card-text {
+      color: #fff !important;
+    }
+
+    .service-card:hover img {
+      opacity: 0.9;
+    }
+  `}
+</style>
     </div>
   );
 };
