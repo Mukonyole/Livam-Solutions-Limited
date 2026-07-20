@@ -25,7 +25,7 @@ const Header = () => {
     <span className="divider">|</span>
 
     <FaEnvelope className="top-icon" />
-    <a href="mailto:info@livamsolutions.co.ke">
+    <a href="mailto:livamcompany@gmail.com">
       livamcompany@gmail.com
     </a>
   </div>
