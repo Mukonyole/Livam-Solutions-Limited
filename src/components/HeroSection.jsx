@@ -44,7 +44,7 @@ const HeroSection = () => {
           className="display-4 fw-bold mb-3"
           style={{
             animation: "fadeInDown 2s ease",
-            color: "#00c6ff",
+            color: "white",
           }}
         >
           Welcome to Livam Solutions Limited
