@@ -7,7 +7,7 @@ const Stats = () => {
       { id: 1, label: "Boreholes Drilled", value: 172 },
       { id: 2, label: "Successful Projects", value: 257 },
       { id: 3, label: "Happy Clients", value: 354 },
-      { id: 4, label: "Years of Experience", value: 5 },
+       { id: 4, label: "Years of Experience", value: 7, suffix: "+" },
     ],
     []
   );
@@ -68,7 +68,10 @@ const Stats = () => {
       <div className="stats-container">
         {stats.map((stat, index) => (
           <div key={stat.id} className="stat-item">
-            <span className="stat-value">{counters[index]}</span>
+            <span className="stat-value">
+  {counters[index]}
+  {stat.suffix}
+</span>
             <p className="stat-label" style={{ color: "#00c6ff" }}>
               {stat.label}
             </p>
