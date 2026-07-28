@@ -4,10 +4,10 @@ import "./stats.css";
 const Stats = () => {
   const stats = useMemo(
     () => [
-      { id: 1, label: "Boreholes Drilled", value: 172 },
-      { id: 2, label: "Successful Projects", value: 257 },
-      { id: 3, label: "Happy Clients", value: 354 },
-       { id: 4, label: "Years of Experience", value: 7, suffix: "+" },
+      { id: 1, label: "Boreholes Drilled", value: 172, suffix: "+" },
+      { id: 2, label: "Successful Projects", value: 257, suffix: "+" },
+      { id: 3, label: "Happy Clients", value: 354, suffix: "+" },
+       { id: 4, label: "Years of Experience", value: 7 },
     ],
     []
   );
