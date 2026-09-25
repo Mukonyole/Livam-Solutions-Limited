@@ -46,7 +46,7 @@ We proudly serve: Homeowners, Farmers, Schools & Institutions, NGOs, Government 
 3. Support for agriculture and business growth
 
 🤝 Our Commitment<br/>
-At Livam Solutions Ltd, we are committed to: Sustainability 🌱, Quality workmanship 🔧, Customer satisfaction 😊 and Environmental responsibility 🌍
+At Livam Solutions Ltd, we are committed to Sustainability 🌱, Quality workmanship 🔧, Customer satisfaction 😊 and Environmental responsibility 🌍
 
 📞 Contact Us:<br/>
 📧 Email: livamcompany@gmail.com<br/>
