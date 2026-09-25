@@ -48,8 +48,8 @@ We proudly serve: Homeowners, Farmers, Schools & Institutions, NGOs, Government 
 🤝 Our Commitment<br/>
 At Livam Solutions Ltd, we are committed to: Sustainability 🌱, Quality workmanship 🔧, Customer satisfaction 😊 and Environmental responsibility 🌍
 
-📞 Contact Us<br/>
-📧 Email: info@livamsolutions.co.ke<br/>
+📞 Contact Us:<br/>
+📧 Email: livamcompany@gmail.com<br/>
 📱 Phone: +254 733372788<br/>
 📍 Location: Kakamega, Kenya<br/>
 
