@@ -12,6 +12,9 @@ import gallery6 from "../images/gallery6.jpg";
 import gallery7 from "../images/gallery7.jpg";
 import gallery8 from "../images/gallery8.jpg";
 import gallery9 from "../images/gallery9.jpg";
+import gallery10 from "../images/gallery10.jpg";
+import gallery11 from "../images/gallery11.jpg";
+import gallery12 from "../images/gallery12.jpg";
 
 import video1 from "../videos/video1.mp4";
 import video2 from "../videos/video2.mp4";
@@ -55,6 +58,9 @@ const Gallery = () => {
               gallery7,
               gallery8,
               gallery9,
+              gallery10,
+              gallery11,
+              gallery12,
             ].map((image, index) => (
               <div className="col-md-4" key={index}>
                 <div className="card border-0 shadow-sm overflow-hidden">

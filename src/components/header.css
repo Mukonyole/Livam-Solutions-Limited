@@ -10,7 +10,7 @@
   margin: 0 auto;
    width: 100%;
   margin: 0;
-  padding: 0;
+  overflow: hidden;
 }
 
 .navbar {
@@ -192,11 +192,15 @@
   align-items: center;
   padding: 2px 30px;
   margin-bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .top-bar-contact {
   display: flex;
   align-items: center;
   gap: 8px;
+  font-size: 11px;
 }
 
 .top-bar-contact a {

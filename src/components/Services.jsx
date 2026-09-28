@@ -11,6 +11,8 @@ import waterConsultancyImage from "../images/water.jpg";
 import siteSurveyImage from "../images/survey.jpg";
 import pumpImage from "../images/pump.jpg";
 import tankImage from "../images/tank.jpg";
+import constructionImage from "../images/Construction.jpg";
+import gallery12 from "../images/gallery12.jpg";
 
 const Services = () => {
   useEffect(() => {
@@ -62,6 +64,14 @@ const services = [
     description:
       "Our Water Storage Solutions are designed to ensure that homes, farms, businesses...",
     image: tankImage,
+  },
+
+  {
+    title: "Construction and Civil Works",
+    slug: "construction-civil-works",
+    description:
+      "We provide professional construction services for hospitals, schools, offices, commercial buildings...",
+    image: gallery12,
   },
 ];
 

@@ -4,6 +4,7 @@ import waterConsultancyImage from "../images/water.jpg";
 import pumpImage from "../images/pump.jpg";
 import siteSurveyImage from "../images/survey.jpg";
 import tankImage from "../images/tank.jpg";
+import gallery11 from "../images/gallery11.jpg";
 // import the rest...
 
 export const services = [
@@ -358,4 +359,37 @@ At Livam Solutions Limited, we are committed to delivering water storage solutio
 `,
   },
   
+  {
+    title: "Construction and Civil Works",
+    slug: "construction-civil-works",
+    image: gallery11,
+    description:
+      "We provide professional construction services for hospitals, schools, offices, commercial buildings...",
+    content: `
+<p>
+   We provide professional construction services for hospitals, schools, offices, commercial 
+   buildings, and other institutional facilities. Our team delivers quality construction works 
+   from foundations to completion, with a strong focus on durability, safety, functionality, 
+   and high-quality workmanship. At Livam Solutions Limited, we understand that every construction project has unique 
+   requirements. Our team works closely with clients and project stakeholders to understand 
+   the intended use of a facility and ensure that construction activities are undertaken in a 
+   professional and organized manner. For institutional projects such as health centres, schools, 
+   offices, and other public or commercial facilities, we place particular emphasis on durability, 
+   functionality, safety, and quality finishing.
+</p>
+<p>
+Livam Solutions Limited is proud to have been involved in the construction of Mahusi Health Centre, delivering professional building and construction works aimed at supporting the development of reliable healthcare infrastructure for the community.
+
+Healthcare facilities require careful planning, quality workmanship, and attention to functionality because they are designed to serve the community for many years. Our approach to institutional construction focuses on creating safe, durable, practical, and well-finished facilities that can effectively support healthcare professionals and the people they serve.
+</p>
+<p>
+The Mahusi Health Centre project reflects our growing capacity to undertake institutional and building construction projects alongside our established water and infrastructure services. Our experience in water-related works also gives us an understanding of the importance of reliable infrastructure in supporting communities and institutions.
+</p>
+<p>
+We are committed to delivering construction solutions that provide long-term value to our clients. From building works and concrete structures to finishing and supporting infrastructure, we approach every project with professionalism, integrity, and attention to detail.
+
+Through projects such as Mahusi Health Centre, Livam Solutions Limited continues to expand its services beyond borehole drilling and water solutions into institutional construction and civil works, serving clients across Kenya with dependable and professionally delivered solutions.
+</p>
+`,
+  },
 ];

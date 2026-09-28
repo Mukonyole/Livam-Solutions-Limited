@@ -20,7 +20,7 @@ export const footer = [
       { list: "Pump Installation", link: "/services/pump-installation" },
       { list: "Water Testing and Consultancy", link: "/services/water-testing-consultancy" },
       { list: "Water Storage Solutions", link: "/services/water-storage-solutions" },
-      
+      { list: "Construction & Civil Works", link: "/services/construction-civil-works" },
 
     ],
   },

@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import wellDrillingImage from "../images/truck.jpg";
 import waterConsultancyImage from "../images/truck3.jpg";
 import ConsultancyImage from "../images/tank.jpg";
+import constructionImage from "../images/Construction.jpg";
 
 const HomeServices = () => {
   useEffect(() => {
@@ -35,6 +36,13 @@ const HomeServices = () => {
         "We design and install reliable water storage systems, including water tanks, steel towers, pipelines, and distribution networks, to ensure a consistent and uninterrupted water supply. Our tailored solutions are built for durability, efficiency, and long-term performance, serving residential, agricultural, commercial, institutional, and industrial clients.",
       image: ConsultancyImage,
     },
+    {
+    title: "Construction & Civil Works",
+    slug: "construction-civil-works",
+      description:
+        "We provide professional construction services for hospitals, schools, offices, commercial buildings, and other institutional facilities. Our team delivers quality construction works from foundations to completion, with a strong focus on durability, safety, functionality, and high-quality workmanship. We work with clients to deliver reliable facilities that meet their specific needs, project requirements, and applicable construction standards.",
+      image: constructionImage,
+    },
   ];
 
   return (
@@ -56,7 +64,17 @@ const HomeServices = () => {
           Who We Are
         </h2>
         <p >
-          Livam Solutions Limited is a trusted water drilling company based in Kakamega, providing efficient and reliable borehole solutions across Kenya to ensure consistent access to clean water for homes, farms, and businesses. With a strong focus on quality workmanship, modern technology, and customer satisfaction, we strive to provide cost-effective solutions that ensure long-term value and dependable performance. Our experienced team works closely with clients from consultation and site assessment to project execution, testing, and ongoing support, ensuring every project is completed efficiently and to the highest industry standards.
+         Livam Solutions Limited is a trusted water drilling, construction, and civil works 
+         company based in Kakamega, providing efficient and reliable solutions across Kenya. 
+         We specialize in borehole drilling and water solutions while also delivering professional 
+         construction and civil works for homes, schools, hospitals, offices, commercial buildings, 
+         and other institutional facilities. With a strong focus on quality workmanship, modern 
+         technology, safety, and customer satisfaction, we strive to provide cost-effective solutions 
+         that ensure long-term value and dependable performance. Our experienced team works closely 
+         with clients from consultation, site assessment, and project planning through construction, 
+         project execution, testing, finishing, and ongoing support. Whether developing a reliable 
+         water source or constructing essential infrastructure, we are committed to completing every 
+         project efficiently, professionally, and to high industry standards.
         </p>
         <p>
           Over the years, we have built a reputation for professionalism, integrity, and excellence by consistently delivering projects on time and within budget. Our dedication to innovation and continuous improvement enables us to provide practical solutions that address today's challenges while preparing our clients for tomorrow's opportunities.
@@ -72,14 +90,29 @@ const HomeServices = () => {
 <p  className="about-text"
   
 >
-  We provide comprehensive borehole drilling, maintenance, and water
-  consultancy services to ensure reliable access to clean and sustainable
-  water solutions across Kenya.From initial site assessment and hydrogeological surveys to borehole drilling, casing, pump installation, and water quality analysis, we ensure that every project is executed with precision, safety, and adherence to industry standards.
-  By utilizing modern equipment, innovative techniques, and best practices, we strive to deliver cost-effective and environmentally responsible solutions that guarantee long-term value.
+  We provide comprehensive borehole drilling, maintenance, water consultancy, construction, 
+  and civil works services to deliver reliable water and infrastructure solutions across Kenya. 
+  From initial site assessment, hydrogeological surveys, and borehole drilling to casing, pump 
+  installation, water quality analysis, and maintenance, we ensure that every water project is 
+  executed with precision, safety, and adherence to industry standards. We also undertake 
+  construction and civil works for hospitals, schools, offices, commercial buildings, 
+  residential properties, and other institutional facilities, delivering quality building works 
+  with a strong focus on durability, safety, functionality, and professional workmanship.
+  </p>
+  <p>
+  By utilizing modern equipment, innovative techniques, quality materials, and proven industry 
+  practices, we strive to deliver cost-effective and environmentally responsible solutions that 
+  provide long-term value to our clients. Our construction and civil works services cover various 
+  stages of development, from foundations and structural works to finishing and supporting 
+  infrastructure, depending on the requirements of each project.
+ 
   </p>
    <p>
-  In addition, our consultancy services provide expert guidance on water resource management, borehole development, regulatory compliance, and the selection of appropriate water solutions. By utilizing modern equipment, innovative techniques, and best practices, we strive to deliver cost-effective and environmentally responsible solutions that guarantee long-term value.
-  Kindly find below key services that we offer. </p>
+ In addition, our consultancy services provide expert guidance on water resource management, 
+ borehole development, regulatory compliance, construction requirements, and the selection of 
+ appropriate water and infrastructure solutions. We work closely with our clients from project 
+ planning and assessment through implementation, testing, construction, and ongoing support, 
+ ensuring that every project is delivered professionally and efficiently. Kindly find below key services that we offer. </p>
   <p>
   For more services, kindly click on <strong>Our Services</strong> section to explore more of our services that we offer.
 </p> <br/>
@@ -87,8 +120,9 @@ const HomeServices = () => {
 <div className="row g-4"></div>
 
         <div className="row g-4">
-          {services.map((service, index) => (
-            <div className="col-md-4" key={index}>
+  {services.map((service, index) => (
+    <div className="col-12 col-sm-6 col-md-3" key={index}>
+
   <Link
     to={`/services/${service.slug}`}
     style={{ textDecoration: "none", color: "inherit" }}

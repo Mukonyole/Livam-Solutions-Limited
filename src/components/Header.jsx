@@ -20,7 +20,7 @@ const Header = () => {
       <div className="top-bar">
   <div className="top-bar-contact">
     <FaPhoneAlt className="top-icon" />
-    <a href="tel:+254722372788">+254 733 372 788</a>
+    <a href="tel:+254733372788">+254 733 372 788</a>
 
     <span className="divider">|</span>
 
