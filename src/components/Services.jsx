@@ -67,7 +67,7 @@ const services = [
 
   {
     title: "Construction and Civil Works",
-    slug: "construction-civil-works",
+    slug: "construction-and-civil-works",
     description:
       "We provide professional construction services for hospitals, schools, offices, commercial buildings...",
     image: gallery12,

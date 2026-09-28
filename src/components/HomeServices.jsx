@@ -38,7 +38,7 @@ const HomeServices = () => {
     },
     {
     title: "Construction & Civil Works",
-    slug: "construction-civil-works",
+    slug: "construction-and-civil-works",
       description:
         "We provide professional construction services for hospitals, schools, offices, commercial buildings, and other institutional facilities. Our team delivers quality construction works from foundations to completion, with a strong focus on durability, safety, functionality, and high-quality workmanship. We work with clients to deliver reliable facilities that meet their specific needs, project requirements, and applicable construction standards.",
       image: constructionImage,
@@ -116,9 +116,6 @@ const HomeServices = () => {
   <p>
   For more services, kindly click on <strong>Our Services</strong> section to explore more of our services that we offer.
 </p> <br/>
-
-<div className="row g-4"></div>
-
         <div className="row g-4">
   {services.map((service, index) => (
     <div className="col-12 col-sm-6 col-md-3" key={index}>

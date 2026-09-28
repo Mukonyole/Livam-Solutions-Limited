@@ -361,7 +361,7 @@ At Livam Solutions Limited, we are committed to delivering water storage solutio
   
   {
     title: "Construction and Civil Works",
-    slug: "construction-civil-works",
+    slug: "construction-and-civil-works",
     image: gallery11,
     description:
       "We provide professional construction services for hospitals, schools, offices, commercial buildings...",
