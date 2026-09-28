@@ -11,7 +11,6 @@ import waterConsultancyImage from "../images/water.jpg";
 import siteSurveyImage from "../images/survey.jpg";
 import pumpImage from "../images/pump.jpg";
 import tankImage from "../images/tank.jpg";
-import constructionImage from "../images/Construction.jpg";
 import gallery12 from "../images/gallery12.jpg";
 
 const Services = () => {
