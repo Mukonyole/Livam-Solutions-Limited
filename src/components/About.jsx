@@ -4,6 +4,18 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import introImage from "../images/cover.jpg";
+import justusImage from "../images/justus.jpg";
+import evansImage from "../images/evans.jpg";
+import purityImage from "../images/purity.jpg";
+import valleryImage from "../images/vallery.jpg";
+import bonifaceImage from "../images/rig.jpg";
+import alfredImage from "../images/rig1.jpg";
+import joshuaImage from "../images/joshua.jpg";
+import fredrickImage from "../images/driver.jpg";
+import rolandImage from "../images/operator.jpg";
+import dicksonImage from "../images/dickson.jpg";
+import cliffImage from "../images/clifford.jpg";
+import mukasiaImage from "../images/mukasia.jpg";
 
 const About = () => {
   useEffect(() => {
@@ -237,75 +249,75 @@ We promote environmentally responsible practices to ensure long-term water acces
   name: "Justus Asakhulu",
   role: "CEO",
   description:"Provides strategic leadership and oversees all company operations, project management, and business development activities.",
-  img: "https://picsum.photos/280/300?random=2",
+  img: justusImage,
 },
                {
                 name: "Boniface Masoni",
                 role: "Engineer-Rig operator",
-                img: "https://picsum.photos/250/300?random=2",
+                img: bonifaceImage,
                 description: "Operates and maintains drilling equipment, monitors drilling activities, and ensures safe and efficient borehole drilling operations on site.",
 
               },
               {
                 name: "Alfred Watima",
                 role: "Assistant Engineer",
-                img: "https://picsum.photos/255/300?random=2",
+                img: alfredImage,
                 description: "Provides technical support to engineers by assisting in site surveys, monitoring drilling and installation works, collecting field data, and helping ensure that engineering designs and specifications are correctly implemented.",
               },
                {
                 name: "Joshua Wachiya",
                 role: "Water Systems Technician",
-                img: "https://picsum.photos/251/300?random=2",
+                img: joshuaImage,
                 description: "Installs, maintains, and repairs water supply systems, pumps, pipelines, and storage tanks to ensure reliable and efficient water distribution.",
               },
               {
                 name: "Evans Mukonyole",
                 role: "Finance Manager",
-                img: "https://picsum.photos/258/300?random=2",
+                img: evansImage,
                 description: "Manages company finances, budgeting, payroll, financial reporting, and project cost control while ensuring accurate accounting and efficient financial operations.",
               },
               {
                 name: "Purity Kaita",
                 role: "Human Resources Manager",
-                img: "https://picsum.photos/256/300?random=2",
+                img: purityImage,
                 description: "Oversees recruitment, staff management, employee relations, training, and workplace policies to ensure efficient and productive company operations.",
               },
               {
                 name: "Vallary Ndetah",
                 role: "Head of Sales and marketing",
-               img: "https://picsum.photos/257/300?random=2",
+               img: valleryImage,
                description: "Leads sales strategy and marketing activities, manages client relationships and oversees brand promotion to increase company revenue and market presence.",
               },
                {
                 name: "Clifford Musambai",
                 role: "IT Operations Manager",
-                img: "https://picsum.photos/260/300?random=2",
+                img: cliffImage,
                 description: "Oversees the company’s IT infrastructure, systems and network operations, ensuring smooth day-to-day technology performance, data security, system maintenance and technical support across all departments.",
               },
                {
                 name: "Celestine Mukasia",
                 role: "Health and Safety Officer",
-                img: "https://picsum.photos/272/300?random=2",
+                img: mukasiaImage,
                 description: "Ensures compliance with occupational health and safety regulations, conducts site risk assessments, enforces safety procedures, and promotes a safe working environment for all staff during drilling and installation operations.",
               },
               
               {
                 name: "Dickson Aliisi",
                 role: "Field Operations Supervisor",
-                img: "https://picsum.photos/261/300?random=2",
+                img: dicksonImage,
                 description: "Supervises and coordinate on-site activities. Ensures teams, equipment, and daily operations run smoothly, safely, and according to project schedules.",
               },
               {
                 name: "Roland Lukhalo",
                 role: "Machine Operatior",
-                img: "https://picsum.photos/270/300?random=2",
+                img: rolandImage,
                 description: "Operates and drives heavy equipment and drilling machinery used on-site, ensuring safe handling, proper setup, routine checks, and efficient performance during drilling and installation operations.",
               },
              
                {
                 name: "Fredrick Shipenzi",
                 role: "Driver",
-                img: "https://picsum.photos/263/300?random=2",
+                img: fredrickImage,
                 description: "Drives and maintain company light vehicles, ensuring safe transportation of staff, equipment, and materials to and from project sites while adhering to road safety regulations and schedules.",
               },
             ].map((member, index) => (
