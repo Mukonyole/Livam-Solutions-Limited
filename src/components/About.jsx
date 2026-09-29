@@ -63,7 +63,18 @@ const About = () => {
         >
           About Us
 <p style={{ textAlign: "left", fontSize: "17px", lineHeight: "1.7", color: "#696868" }}>
-  Livam Solutions Ltd is a professional water drilling company based in Kakamega, Kenya. We are committed to delivering reliable, sustainable, and affordable water solutions for homes, farms, institutions, commercial properties and industries across Kenya. With over 5 years of experience in the water drilling industry, Livam Solutions Limited has built a strong reputation for professionalism, quality service delivery, and customer satisfaction. Our experienced team uses modern equipment and industry best practices to ensure successful and efficient project execution. We specialize in borehole drilling, hydrogeological site surveys, pump installation, water testing, borehole maintenance, and other water-related engineering solutions. We take pride in contributing to improved livelihoods by providing dependable water solutions across Kenya.
+ Livam Solutions Limited is a trusted water drilling, construction, and civil works company 
+ based in Kakamega, providing efficient and reliable solutions across Kenya. We specialize in 
+ borehole drilling and water solutions while also delivering professional construction and civil 
+ works for homes, schools, hospitals, offices, commercial buildings, and other institutional 
+ facilities. With a strong focus on quality workmanship, modern technology, safety, and customer 
+ satisfaction, we strive to provide cost-effective solutions that ensure long-term value and 
+ dependable performance. Our experienced team works closely with clients from consultation, 
+ site assessment, and project planning through construction, project execution, testing, 
+ finishing, and ongoing support. Whether developing a reliable water source or constructing 
+ essential infrastructure, we are committed to completing every project efficiently, 
+ professionally, and to high industry standards. We take pride in contributing to improved 
+ livelihoods by providing dependable water solutions across Kenya.
 </p>
 
         </h2>
